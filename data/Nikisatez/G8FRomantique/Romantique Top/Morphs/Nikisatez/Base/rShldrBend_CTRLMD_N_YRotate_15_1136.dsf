@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Nikisatez/G8FRomantique/Romantique%20Top/Morphs/Nikisatez/Base/rShldrBend_CTRLMD_N_YRotate_15_1136.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Nikisatez",
+			"email" : "",
+			"website" : "daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-02-26T01:44:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_YRotate_15_1136",
+			"name" : "CTRLMD_N_YRotate_15_1136",
+			"parent" : "/data/Nikisatez/G8FRomantique/Romantique%20Top/RomantiqueTop.dsf#rShldrBend",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_YRotate_15_1136",
+				"label" : "CTRLMD_N_YRotate_15_1136",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "rShldrBend:#CTRLMD_N_YRotate_15_1136?value",
+					"operations" : [
+						{ "op" : "push", "url" : "rShldrBend:/data/Nikisatez/G8FRomantique/Romantique%20Top/RomantiqueTop.dsf#rShldrBend?rotation/y" },
+						{ "op" : "push", "val" : 0.0661654 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_YRotate_15_1136-1",
+				"url" : "#CTRLMD_N_YRotate_15_1136"
+			}
+		]
+	}
+}
