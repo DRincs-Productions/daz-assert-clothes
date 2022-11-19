@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Soto/Maxx/Maxx%20Thong/Morphs/Soto/Maxx%20Thong/PBMMaxxWaistbandFix.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Soto",
+			"email" : "",
+			"website" : "http://jc-soto.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-11-30T09:58:54Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "PBMMaxxWaistbandFix",
+			"name" : "PBMMaxxWaistbandFix",
+			"parent" : "/data/Soto/Maxx/Maxx%20Thong/Maxx%20Thong_14049.dsf#Maxx%20G-String%20NO%20Mirror",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "PBMMaxxWaistbandFix",
+				"visible" : false,
+				"locked" : true,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 0,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Actor/Clothing",
+			"morph" : {
+				"vertex_count" : 14049,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "PBMMaxxWaistbandFix-1",
+				"url" : "#PBMMaxxWaistbandFix"
+			}
+		]
+	}
+}

@@ -1,0 +1,325 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Male/Clothing/Soto/Maxx%20Thong/Materials/Iray/%21Maxx%20Thong%20Mirrored%20UVs.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "Soto",
+			"email" : "",
+			"website" : "http://jc-soto.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-11-07T09:56:08Z"
+	},
+	"image_library" : [
+		{
+			"id" : "MaxxThongDOW.jpg",
+			"name" : "MaxxThongDOW.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Soto/Cothing/Genesis8/Maxx/MaxxThongDOW.jpg",
+					"label" : "MaxxThongDOW.jpg"
+				}
+			]
+		},
+		{
+			"id" : "MaxxThongDOC.jpg",
+			"name" : "MaxxThongDOC.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Soto/Cothing/Genesis8/Maxx/MaxxThongDOC.jpg",
+					"label" : "MaxxThongDOC.jpg"
+				}
+			]
+		},
+		{
+			"id" : "MaxxThongB&S.jpg-1",
+			"name" : "MaxxThongB&S.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Soto/Cothing/Genesis8/Maxx/MaxxThongB%26S.jpg",
+					"label" : "MaxxThongB&S.jpg"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Fabric",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Weight",
+								"type" : "float",
+								"label" : "Diffuse Overlay Weight",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Overlay Color",
+								"type" : "float_color",
+								"label" : "Diffuse Overlay Color",
+								"value" : [ 0.7529412, 0.7529412, 0.7529412 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Base/Diffuse/Overlay",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Dual Lobe Specular Reflectivity",
+								"type" : "float",
+								"label" : "Dual Lobe Specular Reflectivity",
+								"value" : 0.5,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Base/Dual Lobe Specular",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 1, 1, 0 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bump Strength",
+								"type" : "float",
+								"label" : "Base Bump",
+								"value" : 1,
+								"min" : 0,
+								"max" : 50,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Base/Bump",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "Ring",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#Fabric",
+				"groups" : [ "Fabric" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			},
+			{
+				"url" : "#Ring",
+				"groups" : [ "Ring" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Cothing/Genesis8/Maxx/MaxxThongDOW.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Cothing/Genesis8/Maxx/MaxxThongDOC.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Cothing/Genesis8/Maxx/MaxxThongB%26S.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Bump%20Strength/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/Soto/Cothing/Genesis8/Maxx/MaxxThongB%26S.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Fabric:?uv_set",
+				"keys" : [ [ 0, "/data/Soto/Maxx/Maxx%20Thong/UV%20Sets/Soto/Base/Mirrored%20UVs.dsf#Mirrored%20UVs" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Ring:?uv_set",
+				"keys" : [ [ 0, "/data/Soto/Maxx/Maxx%20Thong/UV%20Sets/Soto/Base/Mirrored%20UVs.dsf#Mirrored%20UVs" ] ]
+			}
+		]
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Soto/Maxx/Maxx%20Swimwear/Morphs/Soto/Maxx%20Swimwear/PBMMaxxWaistbandFix.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Soto",
+			"email" : "",
+			"website" : "http://jc-soto.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2018-12-25T06:02:21Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "PBMMaxxWaistbandFix",
+			"name" : "PBMMaxxWaistbandFix",
+			"parent" : "/data/Soto/Maxx/Maxx%20Swimwear/Maxx%20Swimwear_1888.dsf#Maxx%20Swimwear_1888",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Maxx Waistband Fix",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 0,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Clothing",
+			"morph" : {
+				"vertex_count" : -1,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "PBMMaxxWaistbandFix-1",
+				"url" : "#PBMMaxxWaistbandFix"
+			}
+		]
+	}
+}
