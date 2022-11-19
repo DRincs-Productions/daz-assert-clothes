@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Clothing/xtrart-3d/X-Fashion%20Sexy%20Deep%20V%20Bodysuit/XF-Sexy%20Deep%20V%20Bodysuit%20BP%20OFF.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "xtrart-3d",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-02-12T17:22:55Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#XF-SDV%20Bodysuit%20BP:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}
