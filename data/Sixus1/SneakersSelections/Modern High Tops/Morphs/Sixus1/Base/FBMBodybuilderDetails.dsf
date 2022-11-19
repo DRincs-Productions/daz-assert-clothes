@@ -1,0 +1,58 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Sixus1/SneakersSelections/Modern%20High%20Tops/Morphs/Sixus1/Base/FBMBodybuilderDetails.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Sixus1",
+			"email" : "",
+			"website" : "www.sixus1.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-01-12T18:08:03Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "FBMBodybuilderDetails",
+			"name" : "FBMBodybuilderDetails",
+			"parent" : "/data/Sixus1/SneakersSelections/Modern%20High%20Tops/ModernHighTopSneakers_13916.dsf#ModernHighTopSneakers",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "FBMBodybuilderDetails",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Actor",
+			"group" : "/Full Body/Real World",
+			"morph" : {
+				"vertex_count" : 13916,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "FBMBodybuilderDetails-1",
+				"url" : "#FBMBodybuilderDetails"
+			}
+		]
+	}
+}

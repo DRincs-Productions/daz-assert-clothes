@@ -1,0 +1,57 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Sixus1/SneakersSelections/Tennis%20Shoes/Morphs/Sixus1/Base/pJCMToesUp_60_L.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Sixus1",
+			"email" : "",
+			"website" : "www.sixus1.com"
+		},
+		"revision" : "0.0",
+		"modified" : "2021-01-12T17:15:56Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "pJCMToesUp_60_L",
+			"name" : "pJCMToesUp_60_L",
+			"parent" : "/data/Sixus1/SneakersSelections/Tennis%20Shoes/TennisShoes_13210.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "pJCMToesUp_60_L",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/Correctives/Base",
+			"morph" : {
+				"vertex_count" : 13210,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "pJCMToesUp_60_L-1",
+				"url" : "#pJCMToesUp_60_L"
+			}
+		]
+	}
+}
