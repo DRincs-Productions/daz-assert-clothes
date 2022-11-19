@@ -1,0 +1,230 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Clothing/Stockings%20%26%20Socks%20Fashion/Materials/Trans/SSF%20Trans%2001.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "Nathy",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2019-10-22T15:52:39Z"
+	},
+	"image_library" : [
+		{
+			"id" : "SS&C_trans01.jpg-1",
+			"name" : "SS&C_trans01.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/NathyDesign/Stockings-Socks%20Fashion/SS%26C_trans01.jpg",
+					"label" : "SS&C_trans01.jpg"
+				}
+			]
+		},
+		{
+			"id" : "SS&C_trans01 normal.png",
+			"name" : "SS&C_trans01 normal.png",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/NathyDesign/Stockings-Socks%20Fashion/SS%26C_trans01%20normal.png",
+					"label" : "SS&C_trans01 normal.png"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Legs",
+			"extra" : [
+				{
+					"type" : "studio/material/uber_iray",
+					"version" : "1.1.0.0"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Bump Strength",
+								"type" : "float",
+								"label" : "Base Bump",
+								"value" : 1,
+								"min" : 0,
+								"max" : 50,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Base/Bump",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Normal Map",
+								"type" : "float",
+								"label" : "Normal Map",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Base/Bump",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.345098, 0.5019608, 0.6588235 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Cutout Opacity",
+								"type" : "float",
+								"label" : "Cutout Opacity",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1.3,
+								"clamped" : true,
+								"step_size" : 1,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Geometry/Cutout",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.5019608, 0.5019608, 0.5019608 ], [ 0.5019608, 0.5019608, 0.5019608 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#Legs",
+				"groups" : [ "Legs" ],
+				"extra" : [
+					{
+						"type" : "studio/material/uber_iray",
+						"version" : "1.1.0.0"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Bump%20Strength/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/NathyDesign/Stockings-Socks%20Fashion/SS%26C_trans01.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/NathyDesign/Stockings-Socks%20Fashion/SS%26C_trans01%20normal.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1.15 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/NathyDesign/Stockings-Socks%20Fashion/SS%26C_trans01.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/Legs:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}
