@@ -1,0 +1,38 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Clothing/OOT%20Formal%20MEGA%20Wardrobe/Presets/Clothing%20Fits/Formal%20MEGA%20Wardrobe%20Skirt%20Fit%20Blouse.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "outoftouch",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2019-05-01T09:15:52Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Fit-OverBlouse:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#Fit-OverFrilledBlouse:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#Fit-OverHighNeckBodysuit:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#Fit-OverV-NeckShirt:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#Fit-OverWrappedBlouse:?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			}
+		]
+	}
+}

@@ -1,0 +1,2723 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%203%20Female/Clothing/ShanasSoulmate/MAT%20Indispensable/3Delight/Short%20Sleeve%20Shirt%2006.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "ShanasSoulmate",
+			"email" : "",
+			"website" : "http://www.daz3d.com/shanassoulmate"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-05-16T22:38:11Z"
+	},
+	"image_library" : [
+		{
+			"id" : "06_IndispensableG8MWShortSleeveShirt.jpg-1",
+			"name" : "06_IndispensableG8MWShortSleeveShirt.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/textures/ShanasSoulmate/Indispensable/06_IndispensableG8MWShortSleeveShirt.jpg",
+					"label" : "06_IndispensableG8MWShortSleeveShirt.jpg"
+				}
+			]
+		},
+		{
+			"id" : "01_IndispensableG8MWShortSleeveShirtB.jpg-5",
+			"name" : "01_IndispensableG8MWShortSleeveShirtB.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/textures/ShanasSoulmate/Indispensable/01_IndispensableG8MWShortSleeveShirtB.jpg",
+					"label" : "01_IndispensableG8MWShortSleeveShirtB.jpg"
+				}
+			]
+		},
+		{
+			"id" : "G8MW_ShortSleeveShirt_Normals.png-1",
+			"name" : "G8MW_ShortSleeveShirt_Normals.png",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/textures/ShanasSoulmate/Indispensable/G8MW_ShortSleeveShirt_Normals.png",
+					"label" : "G8MW_ShortSleeveShirt_Normals.png"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "sleeves",
+			"diffuse" : {
+				"channel" : {
+					"id" : "diffuse",
+					"type" : "color",
+					"name" : "Diffuse Color",
+					"label" : "Diffuse Color",
+					"value" : [ 1, 1, 1 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Diffuse"
+			},
+			"transparency" : {
+				"channel" : {
+					"id" : "transparency",
+					"type" : "float",
+					"name" : "Opacity Strength",
+					"label" : "Opacity Strength",
+					"value" : 1,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Opacity/Basic"
+			},
+			"extra" : [
+				{
+					"type" : "studio/material/daz_shader",
+					"definition" : "support/DAZ/Uber/shaderDefinitions/surface/omUberSurfaceDef.dse"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Tags",
+								"type" : "string",
+								"label" : "Tags",
+								"value" : ""
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth On",
+								"type" : "bool",
+								"label" : "Smooth",
+								"value" : true
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth Angle",
+								"type" : "float",
+								"label" : "Angle",
+								"value" : 89.9,
+								"min" : 0,
+								"max" : 180,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Propagate Priority",
+								"type" : "bool",
+								"label" : "Propagate Priority",
+								"visible" : false,
+								"value" : false
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Active",
+								"type" : "bool",
+								"label" : "Bump Active",
+								"value" : false
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Strength",
+								"type" : "float",
+								"label" : "Bump Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Minimum",
+								"type" : "float",
+								"label" : "Bump Minimum",
+								"value" : -0.1,
+								"min" : 0,
+								"max" : 0,
+								"step_size" : 0.01
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Maximum",
+								"type" : "float",
+								"label" : "Bump Maximum",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Active",
+								"type" : "bool",
+								"label" : "Displacement Active",
+								"value" : false
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Strength",
+								"type" : "float",
+								"label" : "Displacement Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Minimum",
+								"type" : "float",
+								"label" : "Displacement Minimum",
+								"value" : -0.1,
+								"min" : 0,
+								"max" : 0,
+								"step_size" : 0.01
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Maximum",
+								"type" : "float",
+								"label" : "Displacement Maximum",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Trace Displacements",
+								"type" : "bool",
+								"label" : "Trace Displacements",
+								"value" : false
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Normal Map",
+								"type" : "image",
+								"label" : "Normal Map",
+								"default_image_gamma" : 1
+							},
+							"group" : "/Normal Mapping"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Active",
+								"type" : "bool",
+								"label" : "Diffuse Active",
+								"value" : true
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Strength",
+								"type" : "float",
+								"label" : "Diffuse Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Roughness",
+								"type" : "float",
+								"label" : "Diffuse Roughness",
+								"value" : 1,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Opacity Active",
+								"type" : "bool",
+								"label" : "Opacity Active",
+								"value" : true
+							},
+							"group" : "/Opacity/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Opacity Color",
+								"type" : "color",
+								"label" : "Opacity Color",
+								"value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Opacity/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Map Tiling U",
+								"type" : "float",
+								"label" : "Map Tiling U",
+								"value" : 1,
+								"min" : 0.1,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/UV Maps/Tiling"
+						},
+						{
+							"channel" : {
+								"id" : "Map Tiling V",
+								"type" : "float",
+								"label" : "Map Tiling V",
+								"value" : 1,
+								"min" : 0.1,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/UV Maps/Tiling"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Active",
+								"type" : "bool",
+								"label" : "Specular Active",
+								"value" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Color",
+								"type" : "color",
+								"label" : "Specular Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Strength",
+								"type" : "float",
+								"label" : "Specular Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Glossiness",
+								"type" : "float",
+								"label" : "Glossiness",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Sharpness",
+								"type" : "float",
+								"label" : "Specular Sharpness",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic Active",
+								"type" : "bool",
+								"label" : "Anisotropic Active",
+								"value" : false
+							},
+							"group" : "/Specular/Primary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic Direction",
+								"type" : "enum",
+								"label" : "Anisotropic Direction",
+								"value" : 0,
+								"enum_values" : [ "U", "V" ]
+							},
+							"group" : "/Specular/Primary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Active",
+								"type" : "bool",
+								"label" : "Specular2 Active",
+								"value" : false
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Color",
+								"type" : "color",
+								"label" : "Specular2 Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Strength",
+								"type" : "float",
+								"label" : "Specular2 Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Roughness",
+								"type" : "float",
+								"label" : "Specular2 Roughness",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Sharpness",
+								"type" : "float",
+								"label" : "Specular2 Sharpness",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic2 Active",
+								"type" : "bool",
+								"label" : "Anisotropic2 Active",
+								"value" : false
+							},
+							"group" : "/Specular/Secondary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic2 Direction",
+								"type" : "enum",
+								"label" : "Anisotropic2 Direction",
+								"value" : 0,
+								"enum_values" : [ "U", "V" ]
+							},
+							"group" : "/Specular/Secondary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Multiply Specular Through Opacity",
+								"type" : "bool",
+								"label" : "Multiply Specular Through Opacity",
+								"value" : true
+							},
+							"group" : "/Specular/All"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Active",
+								"type" : "bool",
+								"label" : "Ambient Active",
+								"value" : false
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Color",
+								"type" : "color",
+								"label" : "Ambient Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Strength",
+								"type" : "float",
+								"label" : "Ambient Strength",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Refraction Active",
+								"type" : "bool",
+								"label" : "Refraction Active",
+								"value" : false
+							},
+							"group" : "/Opacity/Refraction"
+						},
+						{
+							"channel" : {
+								"id" : "Index of Refraction",
+								"type" : "float",
+								"label" : "Index of Refraction",
+								"value" : 1.3,
+								"min" : 0,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Opacity/Refraction"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Active",
+								"type" : "bool",
+								"label" : "Reflection Active",
+								"value" : false
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Mode",
+								"type" : "enum",
+								"label" : "Reflection Mode",
+								"value" : 0,
+								"enum_values" : [ "Environment Map", "Raytrace" ]
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Environment Map (Map in Lat/Long format)",
+								"type" : "color",
+								"label" : "Reflection Environment Map (Map in Lat/Long format)",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Color",
+								"type" : "color",
+								"label" : "Reflection Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Strength",
+								"type" : "float",
+								"label" : "Reflection Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Blur",
+								"type" : "float",
+								"label" : "Reflection Blur",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Blur Samples",
+								"type" : "int",
+								"label" : "Reflection Blur Samples",
+								"value" : 4,
+								"min" : 1,
+								"max" : 64,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Multiply Reflection Through Opacity",
+								"type" : "bool",
+								"label" : "Multiply Reflection Through Opacity",
+								"value" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Active",
+								"type" : "bool",
+								"label" : "Fresnel Active",
+								"value" : false
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Strength",
+								"type" : "float",
+								"label" : "Fresnel Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Falloff",
+								"type" : "float",
+								"label" : "Fresnel Falloff",
+								"value" : 0.4,
+								"min" : 0.05,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Sharpness",
+								"type" : "float",
+								"label" : "Fresnel Sharpness",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Active",
+								"type" : "bool",
+								"label" : "Velvet Active",
+								"value" : false
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Color",
+								"type" : "color",
+								"label" : "Velvet Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Strength",
+								"type" : "float",
+								"label" : "Velvet Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Falloff",
+								"type" : "float",
+								"label" : "Velvet Falloff",
+								"value" : 20,
+								"min" : 1,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Active",
+								"type" : "bool",
+								"label" : "Subsurface Active",
+								"value" : false
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Color",
+								"type" : "color",
+								"label" : "Subsurface Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Strength",
+								"type" : "float",
+								"label" : "Subsurface Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Refraction",
+								"type" : "float",
+								"label" : "Subsurface Refraction",
+								"value" : 1.5,
+								"min" : 0.01,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Scale",
+								"type" : "float",
+								"label" : "Subsurface Scale",
+								"value" : 4,
+								"min" : 0,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Group",
+								"type" : "int",
+								"label" : "Subsurface Group",
+								"value" : 0,
+								"min" : 0,
+								"max" : 64,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Shading Rate",
+								"type" : "float",
+								"label" : "Subsurface Shading Rate",
+								"value" : 32,
+								"min" : 0,
+								"max" : 128,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Active",
+								"type" : "bool",
+								"label" : "Translucency Active",
+								"value" : false
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Color",
+								"type" : "color",
+								"label" : "Translucency Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Strength",
+								"type" : "float",
+								"label" : "Translucency Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Fantom",
+								"type" : "bool",
+								"label" : "Fantom",
+								"value" : false
+							},
+							"group" : "/Visibility"
+						},
+						{
+							"channel" : {
+								"id" : "Raytrace",
+								"type" : "bool",
+								"label" : "Raytrace",
+								"value" : true
+							},
+							"group" : "/Visibility"
+						},
+						{
+							"channel" : {
+								"id" : "Accept Shadows",
+								"type" : "bool",
+								"label" : "Accept Shadows",
+								"value" : true
+							},
+							"group" : "/Shadows"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion",
+								"type" : "bool",
+								"label" : "Occlusion",
+								"value" : true
+							},
+							"group" : "/Shadows"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion Shading Rate Mode",
+								"type" : "enum",
+								"label" : "Occlusion Shading Rate Mode",
+								"value" : 0,
+								"enum_values" : [ "Global", "Override" ]
+							},
+							"group" : "/Quality"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion Shading Rate",
+								"type" : "float",
+								"label" : "Occlusion Shading Rate",
+								"value" : 10,
+								"min" : 0.1,
+								"max" : 128,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Quality"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "shirt",
+			"diffuse" : {
+				"channel" : {
+					"id" : "diffuse",
+					"type" : "color",
+					"name" : "Diffuse Color",
+					"label" : "Diffuse Color",
+					"value" : [ 1, 1, 1 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Diffuse"
+			},
+			"transparency" : {
+				"channel" : {
+					"id" : "transparency",
+					"type" : "float",
+					"name" : "Opacity Strength",
+					"label" : "Opacity Strength",
+					"value" : 1,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Opacity/Basic"
+			},
+			"extra" : [
+				{
+					"type" : "studio/material/daz_shader",
+					"definition" : "support/DAZ/Uber/shaderDefinitions/surface/omUberSurfaceDef.dse"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Tags",
+								"type" : "string",
+								"label" : "Tags",
+								"value" : ""
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth On",
+								"type" : "bool",
+								"label" : "Smooth",
+								"value" : true
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth Angle",
+								"type" : "float",
+								"label" : "Angle",
+								"value" : 89.9,
+								"min" : 0,
+								"max" : 180,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Propagate Priority",
+								"type" : "bool",
+								"label" : "Propagate Priority",
+								"visible" : false,
+								"value" : false
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Active",
+								"type" : "bool",
+								"label" : "Bump Active",
+								"value" : false
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Strength",
+								"type" : "float",
+								"label" : "Bump Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Minimum",
+								"type" : "float",
+								"label" : "Bump Minimum",
+								"value" : -0.1,
+								"min" : 0,
+								"max" : 0,
+								"step_size" : 0.01
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Maximum",
+								"type" : "float",
+								"label" : "Bump Maximum",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Active",
+								"type" : "bool",
+								"label" : "Displacement Active",
+								"value" : false
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Strength",
+								"type" : "float",
+								"label" : "Displacement Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Minimum",
+								"type" : "float",
+								"label" : "Displacement Minimum",
+								"value" : -0.1,
+								"min" : 0,
+								"max" : 0,
+								"step_size" : 0.01
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Maximum",
+								"type" : "float",
+								"label" : "Displacement Maximum",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Trace Displacements",
+								"type" : "bool",
+								"label" : "Trace Displacements",
+								"value" : false
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Normal Map",
+								"type" : "image",
+								"label" : "Normal Map",
+								"default_image_gamma" : 1
+							},
+							"group" : "/Normal Mapping"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Active",
+								"type" : "bool",
+								"label" : "Diffuse Active",
+								"value" : true
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Strength",
+								"type" : "float",
+								"label" : "Diffuse Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Roughness",
+								"type" : "float",
+								"label" : "Diffuse Roughness",
+								"value" : 1,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Opacity Active",
+								"type" : "bool",
+								"label" : "Opacity Active",
+								"value" : true
+							},
+							"group" : "/Opacity/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Opacity Color",
+								"type" : "color",
+								"label" : "Opacity Color",
+								"value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Opacity/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Map Tiling U",
+								"type" : "float",
+								"label" : "Map Tiling U",
+								"value" : 1,
+								"min" : 0.1,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/UV Maps/Tiling"
+						},
+						{
+							"channel" : {
+								"id" : "Map Tiling V",
+								"type" : "float",
+								"label" : "Map Tiling V",
+								"value" : 1,
+								"min" : 0.1,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/UV Maps/Tiling"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Active",
+								"type" : "bool",
+								"label" : "Specular Active",
+								"value" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Color",
+								"type" : "color",
+								"label" : "Specular Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Strength",
+								"type" : "float",
+								"label" : "Specular Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Glossiness",
+								"type" : "float",
+								"label" : "Glossiness",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Sharpness",
+								"type" : "float",
+								"label" : "Specular Sharpness",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic Active",
+								"type" : "bool",
+								"label" : "Anisotropic Active",
+								"value" : false
+							},
+							"group" : "/Specular/Primary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic Direction",
+								"type" : "enum",
+								"label" : "Anisotropic Direction",
+								"value" : 0,
+								"enum_values" : [ "U", "V" ]
+							},
+							"group" : "/Specular/Primary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Active",
+								"type" : "bool",
+								"label" : "Specular2 Active",
+								"value" : false
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Color",
+								"type" : "color",
+								"label" : "Specular2 Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Strength",
+								"type" : "float",
+								"label" : "Specular2 Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Roughness",
+								"type" : "float",
+								"label" : "Specular2 Roughness",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Sharpness",
+								"type" : "float",
+								"label" : "Specular2 Sharpness",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic2 Active",
+								"type" : "bool",
+								"label" : "Anisotropic2 Active",
+								"value" : false
+							},
+							"group" : "/Specular/Secondary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic2 Direction",
+								"type" : "enum",
+								"label" : "Anisotropic2 Direction",
+								"value" : 0,
+								"enum_values" : [ "U", "V" ]
+							},
+							"group" : "/Specular/Secondary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Multiply Specular Through Opacity",
+								"type" : "bool",
+								"label" : "Multiply Specular Through Opacity",
+								"value" : true
+							},
+							"group" : "/Specular/All"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Active",
+								"type" : "bool",
+								"label" : "Ambient Active",
+								"value" : false
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Color",
+								"type" : "color",
+								"label" : "Ambient Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Strength",
+								"type" : "float",
+								"label" : "Ambient Strength",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Refraction Active",
+								"type" : "bool",
+								"label" : "Refraction Active",
+								"value" : false
+							},
+							"group" : "/Opacity/Refraction"
+						},
+						{
+							"channel" : {
+								"id" : "Index of Refraction",
+								"type" : "float",
+								"label" : "Index of Refraction",
+								"value" : 1.3,
+								"min" : 0,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Opacity/Refraction"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Active",
+								"type" : "bool",
+								"label" : "Reflection Active",
+								"value" : false
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Mode",
+								"type" : "enum",
+								"label" : "Reflection Mode",
+								"value" : 0,
+								"enum_values" : [ "Environment Map", "Raytrace" ]
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Environment Map (Map in Lat/Long format)",
+								"type" : "color",
+								"label" : "Reflection Environment Map (Map in Lat/Long format)",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Color",
+								"type" : "color",
+								"label" : "Reflection Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Strength",
+								"type" : "float",
+								"label" : "Reflection Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Blur",
+								"type" : "float",
+								"label" : "Reflection Blur",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Blur Samples",
+								"type" : "int",
+								"label" : "Reflection Blur Samples",
+								"value" : 4,
+								"min" : 1,
+								"max" : 64,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Multiply Reflection Through Opacity",
+								"type" : "bool",
+								"label" : "Multiply Reflection Through Opacity",
+								"value" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Active",
+								"type" : "bool",
+								"label" : "Fresnel Active",
+								"value" : false
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Strength",
+								"type" : "float",
+								"label" : "Fresnel Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Falloff",
+								"type" : "float",
+								"label" : "Fresnel Falloff",
+								"value" : 0.4,
+								"min" : 0.05,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Sharpness",
+								"type" : "float",
+								"label" : "Fresnel Sharpness",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Active",
+								"type" : "bool",
+								"label" : "Velvet Active",
+								"value" : false
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Color",
+								"type" : "color",
+								"label" : "Velvet Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Strength",
+								"type" : "float",
+								"label" : "Velvet Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Falloff",
+								"type" : "float",
+								"label" : "Velvet Falloff",
+								"value" : 20,
+								"min" : 1,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Active",
+								"type" : "bool",
+								"label" : "Subsurface Active",
+								"value" : false
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Color",
+								"type" : "color",
+								"label" : "Subsurface Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Strength",
+								"type" : "float",
+								"label" : "Subsurface Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Refraction",
+								"type" : "float",
+								"label" : "Subsurface Refraction",
+								"value" : 1.5,
+								"min" : 0.01,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Scale",
+								"type" : "float",
+								"label" : "Subsurface Scale",
+								"value" : 4,
+								"min" : 0,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Group",
+								"type" : "int",
+								"label" : "Subsurface Group",
+								"value" : 0,
+								"min" : 0,
+								"max" : 64,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Shading Rate",
+								"type" : "float",
+								"label" : "Subsurface Shading Rate",
+								"value" : 32,
+								"min" : 0,
+								"max" : 128,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Active",
+								"type" : "bool",
+								"label" : "Translucency Active",
+								"value" : false
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Color",
+								"type" : "color",
+								"label" : "Translucency Color",
+								"value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Strength",
+								"type" : "float",
+								"label" : "Translucency Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Fantom",
+								"type" : "bool",
+								"label" : "Fantom",
+								"value" : false
+							},
+							"group" : "/Visibility"
+						},
+						{
+							"channel" : {
+								"id" : "Raytrace",
+								"type" : "bool",
+								"label" : "Raytrace",
+								"value" : true
+							},
+							"group" : "/Visibility"
+						},
+						{
+							"channel" : {
+								"id" : "Accept Shadows",
+								"type" : "bool",
+								"label" : "Accept Shadows",
+								"value" : true
+							},
+							"group" : "/Shadows"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion",
+								"type" : "bool",
+								"label" : "Occlusion",
+								"value" : true
+							},
+							"group" : "/Shadows"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion Shading Rate Mode",
+								"type" : "enum",
+								"label" : "Occlusion Shading Rate Mode",
+								"value" : 0,
+								"enum_values" : [ "Global", "Override" ]
+							},
+							"group" : "/Quality"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion Shading Rate",
+								"type" : "float",
+								"label" : "Occlusion Shading Rate",
+								"value" : 10,
+								"min" : 0.1,
+								"max" : 128,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Quality"
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "#sleeves",
+				"groups" : [ "sleeves" ],
+				"extra" : [
+					{
+						"type" : "studio/material/daz_shader"
+					}
+				]
+			},
+			{
+				"url" : "#shirt",
+				"groups" : [ "shirt" ],
+				"extra" : [
+					{
+						"type" : "studio/material/daz_shader"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?diffuse/value",
+				"keys" : [ [ 0, [ 0.9019608, 0.9019608, 0.9019608 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?diffuse/image_file",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/06_IndispensableG8MWShortSleeveShirt.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Diffuse%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Diffuse%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Diffuse%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Diffuse%20Roughness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?transparency/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?transparency/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Opacity%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Opacity%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Opacity%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Refraction%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Index%20of%20Refraction/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Bump%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 0.45 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Bump%20Strength/image_file",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/01_IndispensableG8MWShortSleeveShirtB.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Bump%20Minimum/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Bump%20Maximum/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Displacement%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Displacement%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Displacement%20Minimum/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Displacement%20Maximum/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Trace%20Displacements/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/G8MW_ShortSleeveShirt_Normals.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular%20Color/value",
+				"keys" : [ [ 0, [ 0.2117647, 0.2352941, 0.2627451 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/01_IndispensableG8MWShortSleeveShirtB.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular%20Strength/value",
+				"keys" : [ [ 0, 0.35 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Glossiness/value",
+				"keys" : [ [ 0, 0.025 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular%20Sharpness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Anisotropic%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Anisotropic%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular2%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular2%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular2%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular2%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular2%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular2%20Roughness/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Specular2%20Sharpness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Anisotropic2%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Anisotropic2%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Multiply%20Specular%20Through%20Opacity/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Ambient%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Ambient%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Ambient%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Ambient%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Ambient%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Mode/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Environment%20Map%20%28Map%20in%20Lat%2FLong%20format%29/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Environment%20Map%20%28Map%20in%20Lat%2FLong%20format%29/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Blur/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Reflection%20Blur%20Samples/value",
+				"keys" : [ [ 0, 4 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Multiply%20Reflection%20Through%20Opacity/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Fresnel%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Fresnel%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Fresnel%20Falloff/value",
+				"keys" : [ [ 0, 0.4 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Fresnel%20Sharpness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Velvet%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Velvet%20Color/value",
+				"keys" : [ [ 0, [ 0.3843137, 0.4862745, 0.5058824 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Velvet%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/01_IndispensableG8MWShortSleeveShirtB.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Velvet%20Strength/value",
+				"keys" : [ [ 0, 0.25 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Velvet%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Velvet%20Falloff/value",
+				"keys" : [ [ 0, 20 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Refraction/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Scale/value",
+				"keys" : [ [ 0, 4 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Group/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Subsurface%20Shading%20Rate/value",
+				"keys" : [ [ 0, 32 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Translucency%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Translucency%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Translucency%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Translucency%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Fantom/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Raytrace/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Accept%20Shadows/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Occlusion/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Occlusion%20Shading%20Rate%20Mode/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Occlusion%20Shading%20Rate/value",
+				"keys" : [ [ 0, 10 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Map%20Tiling%20U/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Map%20Tiling%20V/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/shirt:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?diffuse/value",
+				"keys" : [ [ 0, [ 0.9019608, 0.9019608, 0.9019608 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?diffuse/image_file",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/06_IndispensableG8MWShortSleeveShirt.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Diffuse%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Diffuse%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Diffuse%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Diffuse%20Roughness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?transparency/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?transparency/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Opacity%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Opacity%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Opacity%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Refraction%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Index%20of%20Refraction/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Bump%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 0.45 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Bump%20Strength/image_file",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/01_IndispensableG8MWShortSleeveShirtB.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Bump%20Minimum/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Bump%20Maximum/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Displacement%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Displacement%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Displacement%20Minimum/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Displacement%20Maximum/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Trace%20Displacements/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/G8MW_ShortSleeveShirt_Normals.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular%20Color/value",
+				"keys" : [ [ 0, [ 0.2117647, 0.2352941, 0.2627451 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/01_IndispensableG8MWShortSleeveShirtB.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular%20Strength/value",
+				"keys" : [ [ 0, 0.35 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Glossiness/value",
+				"keys" : [ [ 0, 0.025 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular%20Sharpness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Anisotropic%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Anisotropic%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular2%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular2%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular2%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular2%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular2%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular2%20Roughness/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Specular2%20Sharpness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Anisotropic2%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Anisotropic2%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Multiply%20Specular%20Through%20Opacity/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Ambient%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Ambient%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Ambient%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Ambient%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Ambient%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Mode/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Environment%20Map%20%28Map%20in%20Lat%2FLong%20format%29/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Environment%20Map%20%28Map%20in%20Lat%2FLong%20format%29/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Blur/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Reflection%20Blur%20Samples/value",
+				"keys" : [ [ 0, 4 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Multiply%20Reflection%20Through%20Opacity/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Fresnel%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Fresnel%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Fresnel%20Falloff/value",
+				"keys" : [ [ 0, 0.4 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Fresnel%20Sharpness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Velvet%20Active/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Velvet%20Color/value",
+				"keys" : [ [ 0, [ 0.3843137, 0.4862745, 0.5058824 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Velvet%20Color/image_file",
+				"keys" : [ [ 0, "/Runtime/textures/ShanasSoulmate/Indispensable/01_IndispensableG8MWShortSleeveShirtB.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Velvet%20Strength/value",
+				"keys" : [ [ 0, 0.25 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Velvet%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Velvet%20Falloff/value",
+				"keys" : [ [ 0, 20 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Refraction/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Scale/value",
+				"keys" : [ [ 0, 4 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Group/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Subsurface%20Shading%20Rate/value",
+				"keys" : [ [ 0, 32 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Translucency%20Active/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Translucency%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Translucency%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Translucency%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Fantom/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Raytrace/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Accept%20Shadows/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Occlusion/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Occlusion%20Shading%20Rate%20Mode/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Occlusion%20Shading%20Rate/value",
+				"keys" : [ [ 0, 10 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Map%20Tiling%20U/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Map%20Tiling%20V/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/sleeves:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			}
+		]
+	}
+}
