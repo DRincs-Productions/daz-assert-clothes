@@ -1,0 +1,72 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Kujira/KuJ%20Kawaii%20Fashion%20Socks%20and%20Shoes%20Collection%202/KuJ%20Kawaii%20Fashion%20Socks%2001/Morphs/Kujira/Base/Zero.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Kujira",
+			"email" : "",
+			"website" : "https://www.daz3d.com/kujira"
+		},
+		"revision" : "1.0",
+		"modified" : "2022-05-12T11:43:10Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Zero",
+			"name" : "Zero",
+			"parent" : "/data/Kujira/KuJ%20Kawaii%20Fashion%20Socks%20and%20Shoes%20Collection%202/KuJ%20Kawaii%20Fashion%20Socks%2001/KuJ%20Kawaii%20Fashion%20Socks%2001_23462.dsf#KuJ%20Kawaii%20Fashion%20Socks%2001",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Zero",
+				"visible" : false,
+				"locked" : true,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Morphs/Morph Loader",
+			"morph" : {
+				"vertex_count" : 23462,
+				"deltas" : {
+					"count" : 12,
+					"values" : [
+						[ 4939, 0.06665611, 2.384186e-07, 0.0457058 ],
+						[ 5894, 0.08363152, 2.384186e-07, 0.05828381 ],
+						[ 5895, 0.2348156, 4.768372e-07, 0.1641216 ],
+						[ 5896, 0.06026649, 0, 0.08840084 ],
+						[ 5897, 0.1576271, 2.384186e-07, 0.2312117 ],
+						[ 5898, 0.04870224, 1.192093e-07, 0.07143593 ],
+						[ 16670, -0.06665611, 2.384186e-07, 0.0457058 ],
+						[ 17625, -0.08363152, 2.384186e-07, 0.05828381 ],
+						[ 17626, -0.2348156, 4.768372e-07, 0.1641216 ],
+						[ 17627, -0.06026649, 0, 0.08840084 ],
+						[ 17628, -0.1576271, 2.384186e-07, 0.2312117 ],
+						[ 17629, -0.04870224, 1.192093e-07, 0.07143593 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Zero-1",
+				"url" : "#Zero"
+			}
+		]
+	}
+}
