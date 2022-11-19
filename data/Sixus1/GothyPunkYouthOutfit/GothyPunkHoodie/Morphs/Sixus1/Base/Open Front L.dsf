@@ -1,0 +1,49 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Sixus1/GothyPunkYouthOutfit/GothyPunkHoodie/Morphs/Sixus1/Base/Open%20Front%20L.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Sixus1",
+			"email" : "",
+			"website" : "www.sixus1.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2019-06-19T22:10:29Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Open Front L",
+			"name" : "Open Front L",
+			"parent" : "/data/Sixus1/GothyPunkYouthOutfit/GothyPunkHoodie/GothyPunkHoodie_12348.dsf#GothyPunkHoodie_12348",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Open Front L",
+				"label" : "Open Front L",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Pose Controls/Front/Left"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Open Front L-1",
+				"url" : "#Open%20Front%20L"
+			}
+		]
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Sixus1/GothyPunkYouthOutfit/GothyPunkHoodie/Morphs/Sixus1/Base/alias_GothyPunkHoodie_12348_XTranslate2.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Sixus1",
+			"email" : "",
+			"website" : "www.sixus1.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2019-06-19T22:10:29Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "XTranslate2",
+			"name" : "XTranslate2",
+			"parent" : "/data/Sixus1/GothyPunkYouthOutfit/GothyPunkHoodie/GothyPunkHoodie_12348.dsf#GothyPunkHoodie_12348",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "XTranslate2",
+				"label" : "Hood Shift Side-Side",
+				"target_channel" : "GothyPunkHoodie_HoodCtrl-1:/People/Genesis%208%20Female/Clothing/Gothy%20Punk%20Youth%20Outfit/Gothy%20Punk%20%21Load%20All.duf#GothyPunkHoodie_HoodCtrl-1?translation/x"
+			},
+			"group" : "/Pose Controls/Hood"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "XTranslate2-1",
+				"url" : "#XTranslate2"
+			}
+		]
+	}
+}
