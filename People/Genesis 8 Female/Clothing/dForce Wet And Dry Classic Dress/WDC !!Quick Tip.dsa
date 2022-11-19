@@ -1,0 +1,3 @@
+// DAZ Studio version 4.9.2.70 filetype DAZ Script
+
+MessageBox.information( "When simulating Wet Shape, apply dForce Modifier-Static Surface on Figure. Adjust Friction to 0.01 and Collision Offset to 0.3 !","","")

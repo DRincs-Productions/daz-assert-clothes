@@ -1,0 +1,2002 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Clothing/Linday/dForce%20Wet%20And%20Dry%20Classic%20Dress/Iray%20Materials/Simulation%20Material/Base%20Simulation%20Material.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "Linday",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-04-18T05:50:24Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "DZ__SPS_Belt",
+			"extra" : [
+				{
+					"type" : "studio/simulation_settings/dynamic_simulation"
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true
+							},
+							"group" : "/Simulation/Surface",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7529412, 0.7529412, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Friction",
+								"type" : "float",
+								"label" : "Friction",
+								"value" : 0.4,
+								"min" : 0.001,
+								"max" : 0.999,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Surface",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7529412, 0.7529412, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Dynamics Strength",
+								"type" : "float",
+								"label" : "Dynamics Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Stretch Stiffness",
+								"type" : "float",
+								"label" : "Stretch Stiffness",
+								"value" : 0.8,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Shear Stiffness",
+								"type" : "float",
+								"label" : "Shear Stiffness (Quads)",
+								"value" : 0.2,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bend Stiffness",
+								"type" : "float",
+								"label" : "Bend Stiffness",
+								"value" : 0.5,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Buckling Stiffness",
+								"type" : "float",
+								"label" : "Buckling Stiffness",
+								"value" : 0.05,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Buckling Ratio",
+								"type" : "float",
+								"label" : "Buckling Ratio",
+								"value" : 0.7,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Density",
+								"type" : "float",
+								"label" : "Density (GSM)",
+								"value" : 180,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Contraction-Expansion Ratio",
+								"type" : "float",
+								"label" : "Contraction-Expansion Ratio",
+								"value" : 1,
+								"min" : 1e-05,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Damping",
+								"type" : "float",
+								"label" : "Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Stretch Damping",
+								"type" : "float",
+								"label" : "Stretch Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Shear Damping",
+								"type" : "float",
+								"label" : "Shear Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bend Damping",
+								"type" : "float",
+								"label" : "Bend Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collision Layer",
+								"type" : "int",
+								"label" : "Collision Layer",
+								"value" : 0,
+								"min" : 0,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collide",
+								"type" : "bool",
+								"label" : "Collide",
+								"visible" : false,
+								"value" : true
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Self Collide",
+								"type" : "bool",
+								"label" : "Self Collide",
+								"value" : true
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collision Offset",
+								"type" : "float",
+								"label" : "Collision Offset",
+								"value" : 0.2,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Velocity Smoothing",
+								"type" : "float",
+								"label" : "Velocity Smoothing",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.654902, 0.7254902, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Velocity Smoothing Iterations",
+								"type" : "int",
+								"label" : "Velocity Smoothing Iterations",
+								"value" : 0,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Simulation/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.654902, 0.7254902, 0.627451 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "DZ__SPS_Skirt",
+			"extra" : [
+				{
+					"type" : "studio/simulation_settings/dynamic_simulation"
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true
+							},
+							"group" : "/Simulation/Surface",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7529412, 0.7529412, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Friction",
+								"type" : "float",
+								"label" : "Friction",
+								"value" : 0.4,
+								"min" : 0.001,
+								"max" : 0.999,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Surface",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7529412, 0.7529412, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Dynamics Strength",
+								"type" : "float",
+								"label" : "Dynamics Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Stretch Stiffness",
+								"type" : "float",
+								"label" : "Stretch Stiffness",
+								"value" : 0.8,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Shear Stiffness",
+								"type" : "float",
+								"label" : "Shear Stiffness (Quads)",
+								"value" : 0.2,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bend Stiffness",
+								"type" : "float",
+								"label" : "Bend Stiffness",
+								"value" : 0.5,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Buckling Stiffness",
+								"type" : "float",
+								"label" : "Buckling Stiffness",
+								"value" : 0.05,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Buckling Ratio",
+								"type" : "float",
+								"label" : "Buckling Ratio",
+								"value" : 0.7,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Density",
+								"type" : "float",
+								"label" : "Density (GSM)",
+								"value" : 180,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Contraction-Expansion Ratio",
+								"type" : "float",
+								"label" : "Contraction-Expansion Ratio",
+								"value" : 1,
+								"min" : 1e-05,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Damping",
+								"type" : "float",
+								"label" : "Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Stretch Damping",
+								"type" : "float",
+								"label" : "Stretch Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Shear Damping",
+								"type" : "float",
+								"label" : "Shear Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bend Damping",
+								"type" : "float",
+								"label" : "Bend Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collision Layer",
+								"type" : "int",
+								"label" : "Collision Layer",
+								"value" : 0,
+								"min" : 0,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collide",
+								"type" : "bool",
+								"label" : "Collide",
+								"visible" : false,
+								"value" : true
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Self Collide",
+								"type" : "bool",
+								"label" : "Self Collide",
+								"value" : true
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collision Offset",
+								"type" : "float",
+								"label" : "Collision Offset",
+								"value" : 0.2,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Velocity Smoothing",
+								"type" : "float",
+								"label" : "Velocity Smoothing",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.654902, 0.7254902, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Velocity Smoothing Iterations",
+								"type" : "int",
+								"label" : "Velocity Smoothing Iterations",
+								"value" : 0,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Simulation/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.654902, 0.7254902, 0.627451 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "DZ__SPS_Strap",
+			"extra" : [
+				{
+					"type" : "studio/simulation_settings/dynamic_simulation"
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true
+							},
+							"group" : "/Simulation/Surface",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7529412, 0.7529412, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Friction",
+								"type" : "float",
+								"label" : "Friction",
+								"value" : 0.4,
+								"min" : 0.001,
+								"max" : 0.999,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Surface",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7529412, 0.7529412, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Dynamics Strength",
+								"type" : "float",
+								"label" : "Dynamics Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Stretch Stiffness",
+								"type" : "float",
+								"label" : "Stretch Stiffness",
+								"value" : 0.8,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Shear Stiffness",
+								"type" : "float",
+								"label" : "Shear Stiffness (Quads)",
+								"value" : 0.2,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bend Stiffness",
+								"type" : "float",
+								"label" : "Bend Stiffness",
+								"value" : 0.5,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Buckling Stiffness",
+								"type" : "float",
+								"label" : "Buckling Stiffness",
+								"value" : 0.05,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Buckling Ratio",
+								"type" : "float",
+								"label" : "Buckling Ratio",
+								"value" : 0.7,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Density",
+								"type" : "float",
+								"label" : "Density (GSM)",
+								"value" : 180,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Contraction-Expansion Ratio",
+								"type" : "float",
+								"label" : "Contraction-Expansion Ratio",
+								"value" : 1,
+								"min" : 1e-05,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Damping",
+								"type" : "float",
+								"label" : "Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Stretch Damping",
+								"type" : "float",
+								"label" : "Stretch Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Shear Damping",
+								"type" : "float",
+								"label" : "Shear Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bend Damping",
+								"type" : "float",
+								"label" : "Bend Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collision Layer",
+								"type" : "int",
+								"label" : "Collision Layer",
+								"value" : 0,
+								"min" : 0,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collide",
+								"type" : "bool",
+								"label" : "Collide",
+								"visible" : false,
+								"value" : true
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Self Collide",
+								"type" : "bool",
+								"label" : "Self Collide",
+								"value" : true
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collision Offset",
+								"type" : "float",
+								"label" : "Collision Offset",
+								"value" : 0.2,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Velocity Smoothing",
+								"type" : "float",
+								"label" : "Velocity Smoothing",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.654902, 0.7254902, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Velocity Smoothing Iterations",
+								"type" : "int",
+								"label" : "Velocity Smoothing Iterations",
+								"value" : 0,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Simulation/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.654902, 0.7254902, 0.627451 ] ]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"id" : "DZ__SPS_Top",
+			"extra" : [
+				{
+					"type" : "studio/simulation_settings/dynamic_simulation"
+				},
+				{
+					"type" : "studio_modifier_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true
+							},
+							"group" : "/Simulation/Surface",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7529412, 0.7529412, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Friction",
+								"type" : "float",
+								"label" : "Friction",
+								"value" : 0.4,
+								"min" : 0.001,
+								"max" : 0.999,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Surface",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7529412, 0.7529412, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Dynamics Strength",
+								"type" : "float",
+								"label" : "Dynamics Strength",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Stretch Stiffness",
+								"type" : "float",
+								"label" : "Stretch Stiffness",
+								"value" : 0.8,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Shear Stiffness",
+								"type" : "float",
+								"label" : "Shear Stiffness (Quads)",
+								"value" : 0.2,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bend Stiffness",
+								"type" : "float",
+								"label" : "Bend Stiffness",
+								"value" : 0.5,
+								"min" : 0.01,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Buckling Stiffness",
+								"type" : "float",
+								"label" : "Buckling Stiffness",
+								"value" : 0.05,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Buckling Ratio",
+								"type" : "float",
+								"label" : "Buckling Ratio",
+								"value" : 0.7,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Density",
+								"type" : "float",
+								"label" : "Density (GSM)",
+								"value" : 180,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Contraction-Expansion Ratio",
+								"type" : "float",
+								"label" : "Contraction-Expansion Ratio",
+								"value" : 1,
+								"min" : 1e-05,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Damping",
+								"type" : "float",
+								"label" : "Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Stretch Damping",
+								"type" : "float",
+								"label" : "Stretch Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Shear Damping",
+								"type" : "float",
+								"label" : "Shear Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Bend Damping",
+								"type" : "float",
+								"label" : "Bend Damping",
+								"value" : 0.1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Structure/Damping",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.627451, 0.7058824, 0.7254902 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collision Layer",
+								"type" : "int",
+								"label" : "Collision Layer",
+								"value" : 0,
+								"min" : 0,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collide",
+								"type" : "bool",
+								"label" : "Collide",
+								"visible" : false,
+								"value" : true
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Self Collide",
+								"type" : "bool",
+								"label" : "Self Collide",
+								"value" : true
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Collision Offset",
+								"type" : "float",
+								"label" : "Collision Offset",
+								"value" : 0.2,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Collision",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.7254902, 0.627451, 0.6666667 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Velocity Smoothing",
+								"type" : "float",
+								"label" : "Velocity Smoothing",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Simulation/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.654902, 0.7254902, 0.627451 ] ]
+							}
+						},
+						{
+							"channel" : {
+								"id" : "Velocity Smoothing Iterations",
+								"type" : "int",
+								"label" : "Velocity Smoothing Iterations",
+								"value" : 0,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Simulation/Smoothing",
+							"presentation" : {
+								"type" : "",
+								"label" : "",
+								"description" : "",
+								"icon_large" : "",
+								"colors" : [ [ 0.6470588, 0.5294118, 0.4901961 ], [ 0.654902, 0.7254902, 0.627451 ] ]
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "DZ__SPS_Belt-1",
+				"url" : "#DZ__SPS_Belt",
+				"name" : "DZ__SPS_Belt",
+				"parent" : "name://@selection:",
+				"groups" : [ "Belt" ],
+				"extra" : [
+					{
+						"type" : "studio/simulation_settings/dynamic_simulation"
+					}
+				]
+			},
+			{
+				"id" : "DZ__SPS_Skirt-1",
+				"url" : "#DZ__SPS_Skirt",
+				"name" : "DZ__SPS_Skirt",
+				"parent" : "name://@selection:",
+				"groups" : [ "Skirt" ],
+				"extra" : [
+					{
+						"type" : "studio/simulation_settings/dynamic_simulation"
+					}
+				]
+			},
+			{
+				"id" : "DZ__SPS_Strap-1",
+				"url" : "#DZ__SPS_Strap",
+				"name" : "DZ__SPS_Strap",
+				"parent" : "name://@selection:",
+				"groups" : [ "Strap" ],
+				"extra" : [
+					{
+						"type" : "studio/simulation_settings/dynamic_simulation"
+					}
+				]
+			},
+			{
+				"id" : "DZ__SPS_Top-1",
+				"url" : "#DZ__SPS_Top",
+				"name" : "DZ__SPS_Top",
+				"parent" : "name://@selection:",
+				"groups" : [ "Top" ],
+				"extra" : [
+					{
+						"type" : "studio/simulation_settings/dynamic_simulation"
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Visible%20in%20Simulation/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Friction/value",
+				"keys" : [ [ 0, 0.4 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Dynamics%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Stretch%20Stiffness/value",
+				"keys" : [ [ 0, 0.8 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Shear%20Stiffness/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Bend%20Stiffness/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Buckling%20Stiffness/value",
+				"keys" : [ [ 0, 0.45 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Buckling%20Ratio/value",
+				"keys" : [ [ 0, 0.3 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Density/value",
+				"keys" : [ [ 0, 180 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Contraction-Expansion%20Ratio/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Stretch%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Shear%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Bend%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Collision%20Layer/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Collide/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Self%20Collide/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Collision%20Offset/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Velocity%20Smoothing/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Belt:?extra/studio_modifier_channels/channels/Velocity%20Smoothing%20Iterations/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Visible%20in%20Simulation/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Friction/value",
+				"keys" : [ [ 0, 0.4 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Dynamics%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Stretch%20Stiffness/value",
+				"keys" : [ [ 0, 0.8 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Shear%20Stiffness/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Bend%20Stiffness/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Buckling%20Stiffness/value",
+				"keys" : [ [ 0, 0.05 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Buckling%20Ratio/value",
+				"keys" : [ [ 0, 0.7 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Density/value",
+				"keys" : [ [ 0, 180 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Contraction-Expansion%20Ratio/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Stretch%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Shear%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Bend%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Collision%20Layer/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Collide/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Self%20Collide/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Collision%20Offset/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Velocity%20Smoothing/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Skirt:?extra/studio_modifier_channels/channels/Velocity%20Smoothing%20Iterations/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Visible%20in%20Simulation/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Friction/value",
+				"keys" : [ [ 0, 0.4 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Dynamics%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Stretch%20Stiffness/value",
+				"keys" : [ [ 0, 0.8 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Shear%20Stiffness/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Bend%20Stiffness/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Buckling%20Stiffness/value",
+				"keys" : [ [ 0, 0.35 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Buckling%20Ratio/value",
+				"keys" : [ [ 0, 0.4 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Density/value",
+				"keys" : [ [ 0, 180 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Contraction-Expansion%20Ratio/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Stretch%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Shear%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Bend%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Collision%20Layer/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Collide/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Self%20Collide/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Collision%20Offset/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Velocity%20Smoothing/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Strap:?extra/studio_modifier_channels/channels/Velocity%20Smoothing%20Iterations/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Visible%20in%20Simulation/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Friction/value",
+				"keys" : [ [ 0, 0.4 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Dynamics%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Stretch%20Stiffness/value",
+				"keys" : [ [ 0, 0.8 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Shear%20Stiffness/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Bend%20Stiffness/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Buckling%20Stiffness/value",
+				"keys" : [ [ 0, 0.05 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Buckling%20Ratio/value",
+				"keys" : [ [ 0, 0.7 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Density/value",
+				"keys" : [ [ 0, 180 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Contraction-Expansion%20Ratio/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Stretch%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Shear%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Bend%20Damping/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Collision%20Layer/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Collide/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Self%20Collide/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Collision%20Offset/value",
+				"keys" : [ [ 0, 0.2 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Velocity%20Smoothing/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#DZ__SPS_Top:?extra/studio_modifier_channels/channels/Velocity%20Smoothing%20Iterations/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

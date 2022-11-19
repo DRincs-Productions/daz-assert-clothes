@@ -1,0 +1,73 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Clothing/Linday/dForce%20Wet%20And%20Dry%20Classic%20Dress/Simulation%20Setings%20Collision%20Preset.duf",
+		"type" : "preset_simulation_settings",
+		"contributor" : {
+			"author" : "Linday",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-04-19T13:07:51Z"
+	},
+	"scene" : {
+		"extra" : [
+			{
+				"type" : "studio_simulation_settings",
+				"simulation_options" : {
+					"active_engine" : "DzDForceEngine",
+					"simulation_elements" : [
+						{
+							"id" : "dForce Simulation Options",
+							"channels" : [
+								{
+									"channel" : {
+										"id" : "Frames Per Second Multiplier",
+										"type" : "int",
+										"current_value" : 3
+									}
+								},
+								{
+									"channel" : {
+										"id" : "Subframes",
+										"type" : "int",
+										"current_value" : 8
+									}
+								},
+								{
+									"channel" : {
+										"id" : "Iterations",
+										"type" : "int",
+										"current_value" : 32
+									}
+								},
+								{
+									"channel" : {
+										"id" : "Collision Mesh Resolution",
+										"type" : "enum",
+										"current_value" : 0
+									}
+								},
+								{
+									"channel" : {
+										"id" : "Collision Mode",
+										"type" : "enum",
+										"current_value" : 1
+									}
+								},
+								{
+									"channel" : {
+										"id" : "Collision Iterations",
+										"type" : "int",
+										"current_value" : 32
+									}
+								}
+							]
+						}
+					]
+				}
+			}
+		]
+	}
+}
