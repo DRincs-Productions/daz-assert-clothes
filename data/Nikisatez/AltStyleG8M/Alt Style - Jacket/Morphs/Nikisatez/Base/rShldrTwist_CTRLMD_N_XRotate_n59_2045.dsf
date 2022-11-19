@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Nikisatez/AltStyleG8M/Alt%20Style%20-%20Jacket/Morphs/Nikisatez/Base/rShldrTwist_CTRLMD_N_XRotate_n59_2045.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Daz 3D",
+			"email" : "",
+			"website" : "http://www.daz3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2017-12-20T09:21:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_XRotate_n59_2045",
+			"name" : "CTRLMD_N_XRotate_n59_2045",
+			"parent" : "/data/Nikisatez/AltStyleG8M/Alt%20Style%20-%20Jacket/jacketnozip_75137.dsf#rShldrTwist",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_XRotate_n59_2045",
+				"label" : "CTRLMD_N_XRotate_n59_2045",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "rShldrTwist:#CTRLMD_N_XRotate_n59_2045?value",
+					"operations" : [
+						{ "op" : "push", "url" : "rShldrTwist:/data/Nikisatez/AltStyleG8M/Alt%20Style%20-%20Jacket/jacketnozip_75137.dsf#rShldrTwist?rotation/x" },
+						{ "op" : "push", "val" : -0.0168906 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_XRotate_n59_2045-1",
+				"url" : "#CTRLMD_N_XRotate_n59_2045"
+			}
+		]
+	}
+}
