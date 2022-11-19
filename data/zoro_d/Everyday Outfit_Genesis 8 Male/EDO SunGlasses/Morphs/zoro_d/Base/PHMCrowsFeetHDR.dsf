@@ -1,0 +1,58 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/zoro_d/Everyday%20Outfit_Genesis%208%20Male/EDO%20SunGlasses/Morphs/zoro_d/Base/PHMCrowsFeetHDR.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zoro_d",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2018-09-23T20:51:54Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "PHMCrowsFeetHDR",
+			"name" : "PHMCrowsFeetHDR",
+			"parent" : "/data/zoro_d/Everyday%20Outfit_Genesis%208%20Male/EDO%20SunGlasses/SunGlasses_8302.dsf#SunGlasses",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "PHMCrowsFeetHDR",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Eyes",
+			"group" : "/Real World",
+			"morph" : {
+				"vertex_count" : 8302,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "PHMCrowsFeetHDR-1",
+				"url" : "#PHMCrowsFeetHDR"
+			}
+		]
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/zoro_d/Everyday%20Outfit_Genesis%208%20Male/EDO%20SunGlasses/Morphs/zoro_d/Base/FHMLucas8HD.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "zoro_d",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-09-19T13:01:41Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "FHMLucas8HD",
+			"name" : "FHMLucas8HD",
+			"parent" : "/data/zoro_d/Everyday%20Outfit_Genesis%208%20Male/EDO%20SunGlasses/SunGlasses_8302.dsf#SunGlasses_8302",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "FHMLucas8HD",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Head/People/Real World",
+			"morph" : {
+				"vertex_count" : -1,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "FHMLucas8HD-1",
+				"url" : "#FHMLucas8HD"
+			}
+		]
+	}
+}
