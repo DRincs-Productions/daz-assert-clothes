@@ -1,0 +1,1409 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Male/Clothing/Disruptive%20Publishers/Diego%208%20Popstar/Shirt.duf",
+		"type" : "wearable",
+		"contributor" : {
+			"author" : "nigel.t.metcalf",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2019-11-21T23:25:13Z"
+	},
+	"image_library" : [
+		{
+			"id" : "T-ShirtDiffuseMap.tga",
+			"name" : "T-ShirtDiffuseMap.tga",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Disruptive%20Publishers/Diego%20Popstar/T-ShirtDiffuseMap.tga",
+					"label" : "T-ShirtDiffuseMap.tga"
+				}
+			]
+		},
+		{
+			"id" : "T-ShirtSpecularMap.tga",
+			"name" : "T-ShirtSpecularMap.tga",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Disruptive%20Publishers/Diego%20Popstar/T-ShirtSpecularMap.tga",
+					"label" : "T-ShirtSpecularMap.tga"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Cloth",
+			"type" : "Glossy (Plastic)",
+			"diffuse" : {
+				"channel" : {
+					"id" : "diffuse",
+					"type" : "color",
+					"name" : "Diffuse Color",
+					"label" : "Diffuse Color",
+					"value" : [ 1, 1, 1 ],
+					"current_value" : [ 0.6196078, 0.6196078, 0.6196078 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Diffuse"
+			},
+			"diffuse_strength" : {
+				"channel" : {
+					"id" : "diffuse_strength",
+					"type" : "float",
+					"name" : "Diffuse Strength",
+					"label" : "Diffuse Strength",
+					"value" : 1,
+					"current_value" : 0.52,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Diffuse"
+			},
+			"specular" : {
+				"channel" : {
+					"id" : "specular",
+					"type" : "color",
+					"name" : "Specular Color",
+					"label" : "Specular Color",
+					"value" : [ 0.6, 0.6, 0.6 ],
+					"current_value" : [ 0.6313725, 0.6313725, 0.6313725 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Specular"
+			},
+			"specular_strength" : {
+				"channel" : {
+					"id" : "specular_strength",
+					"type" : "float",
+					"name" : "Specular Strength",
+					"label" : "Specular Strength",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Specular"
+			},
+			"glossiness" : {
+				"channel" : {
+					"id" : "glossiness",
+					"type" : "float",
+					"name" : "Glossiness",
+					"label" : "Glossiness",
+					"value" : 1,
+					"current_value" : 0.58,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Specular"
+			},
+			"ambient" : {
+				"channel" : {
+					"id" : "ambient",
+					"type" : "color",
+					"name" : "Ambient Color",
+					"label" : "Ambient Color",
+					"value" : [ 0, 0, 0 ],
+					"current_value" : [ 0, 0, 0 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Ambient"
+			},
+			"ambient_strength" : {
+				"channel" : {
+					"id" : "ambient_strength",
+					"type" : "float",
+					"name" : "Ambient Strength",
+					"label" : "Ambient Strength",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Ambient"
+			},
+			"reflection" : {
+				"channel" : {
+					"id" : "reflection",
+					"type" : "color",
+					"name" : "Reflection Color",
+					"label" : "Reflection Color",
+					"value" : [ 1, 1, 1 ],
+					"current_value" : [ 1, 1, 1 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Reflection"
+			},
+			"reflection_strength" : {
+				"channel" : {
+					"id" : "reflection_strength",
+					"type" : "float",
+					"name" : "Reflection Strength",
+					"label" : "Reflection Strength",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Reflection"
+			},
+			"refraction" : {
+				"channel" : {
+					"id" : "refraction",
+					"type" : "color",
+					"name" : "Refraction Color",
+					"label" : "Refraction Color",
+					"value" : [ 1, 1, 1 ],
+					"current_value" : [ 1, 1, 1 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Refraction"
+			},
+			"refraction_strength" : {
+				"channel" : {
+					"id" : "refraction_strength",
+					"type" : "float",
+					"name" : "Refraction Strength",
+					"label" : "Refraction Strength",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Refraction"
+			},
+			"ior" : {
+				"channel" : {
+					"id" : "ior",
+					"type" : "float",
+					"name" : "Index of Refraction",
+					"label" : "Index of Refraction",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : 0,
+					"max" : 10,
+					"clamped" : true,
+					"step_size" : 0.01
+				},
+				"group" : "/Refraction"
+			},
+			"bump" : {
+				"channel" : {
+					"id" : "bump",
+					"type" : "float",
+					"name" : "Bump Strength",
+					"label" : "Bump Strength",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : 0,
+					"max" : 2,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true,
+					"invalid_without_map" : true
+				},
+				"group" : "/Bump"
+			},
+			"bump_min" : {
+				"channel" : {
+					"id" : "bump_min",
+					"type" : "float",
+					"name" : "Negative Bump",
+					"label" : "Negative Bump",
+					"value" : -0.01,
+					"current_value" : -0.01,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				"group" : "/Bump"
+			},
+			"bump_max" : {
+				"channel" : {
+					"id" : "bump_max",
+					"type" : "float",
+					"name" : "Positive Bump",
+					"label" : "Positive Bump",
+					"value" : 0.01,
+					"current_value" : 0.01,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				"group" : "/Bump"
+			},
+			"displacement" : {
+				"channel" : {
+					"id" : "displacement",
+					"type" : "float",
+					"name" : "Displacement Strength",
+					"label" : "Displacement Strength",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : 0,
+					"max" : 2,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true,
+					"invalid_without_map" : true
+				},
+				"group" : "/Displacement"
+			},
+			"displacement_min" : {
+				"channel" : {
+					"id" : "displacement_min",
+					"type" : "float",
+					"name" : "Minimum Displacement",
+					"label" : "Minimum Displacement",
+					"value" : -0.1,
+					"current_value" : -0.1,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				"group" : "/Displacement"
+			},
+			"displacement_max" : {
+				"channel" : {
+					"id" : "displacement_max",
+					"type" : "float",
+					"name" : "Maximum Displacement",
+					"label" : "Maximum Displacement",
+					"value" : 0.1,
+					"current_value" : 0.1,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				"group" : "/Displacement"
+			},
+			"transparency" : {
+				"channel" : {
+					"id" : "transparency",
+					"type" : "float",
+					"name" : "Opacity Strength",
+					"label" : "Opacity Strength",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Opacity"
+			},
+			"normal" : {
+				"channel" : {
+					"id" : "normal",
+					"type" : "image",
+					"name" : "Normal Map",
+					"label" : "Normal Map",
+					"default_image_gamma" : 1
+				},
+				"group" : "/Normal Mapping"
+			},
+			"u_offset" : {
+				"channel" : {
+					"id" : "u_offset",
+					"type" : "float",
+					"name" : "Horizontal Offset",
+					"label" : "Horizontal Offset",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				"group" : "/Tiling"
+			},
+			"u_scale" : {
+				"channel" : {
+					"id" : "u_scale",
+					"type" : "float",
+					"name" : "Horizontal Tiles",
+					"label" : "Horizontal Tiles",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				"group" : "/Tiling"
+			},
+			"v_offset" : {
+				"channel" : {
+					"id" : "v_offset",
+					"type" : "float",
+					"name" : "Vertical Offset",
+					"label" : "Vertical Offset",
+					"value" : 0,
+					"current_value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				"group" : "/Tiling"
+			},
+			"v_scale" : {
+				"channel" : {
+					"id" : "v_scale",
+					"type" : "float",
+					"name" : "Vertical Tiles",
+					"label" : "Vertical Tiles",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				"group" : "/Tiling"
+			},
+			"extra" : [
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Multiply Specular Through Opacity",
+								"type" : "bool",
+								"label" : "Multiply Specular Through Opacity",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Specular"
+						},
+						{
+							"channel" : {
+								"id" : "Sheen Color",
+								"type" : "color",
+								"label" : "Sheen Color",
+								"visible" : false,
+								"value" : [ 0.4, 0.4, 0.4 ],
+								"current_value" : [ 0.4, 0.4, 0.4 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Subsurface"
+						},
+						{
+							"channel" : {
+								"id" : "Scatter Color",
+								"type" : "color",
+								"label" : "Scatter Color",
+								"visible" : false,
+								"value" : [ 0.8, 0.1490196, 0.05882353 ],
+								"current_value" : [ 0.8, 0.1490196, 0.05882353 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Subsurface"
+						},
+						{
+							"channel" : {
+								"id" : "Thickness",
+								"type" : "float",
+								"label" : "Thickness",
+								"visible" : false,
+								"value" : 0.25,
+								"current_value" : 0.25,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Subsurface"
+						},
+						{
+							"channel" : {
+								"id" : "Lighting Model",
+								"type" : "enum",
+								"label" : "Lighting Model",
+								"value" : 0,
+								"current_value" : 3,
+								"enum_values" : [ "Plastic", "Metallic", "Skin", "Glossy (Plastic)", "Matte", "Glossy (Metallic)" ]
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "Tags",
+								"type" : "string",
+								"label" : "Tags",
+								"value" : "",
+								"current_value" : ""
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth On",
+								"type" : "bool",
+								"label" : "Smooth",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth Angle",
+								"type" : "float",
+								"label" : "Angle",
+								"value" : 89.9,
+								"current_value" : 89.9,
+								"min" : 0,
+								"max" : 180,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Line Preview Color",
+								"type" : "color",
+								"label" : "Line Preview Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/Lines"
+						},
+						{
+							"channel" : {
+								"id" : "Line Start Width",
+								"type" : "float",
+								"label" : "Line Start Width (mm)",
+								"value" : 0.1,
+								"current_value" : 0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Line End Width",
+								"type" : "float",
+								"label" : "Line End Width (mm)",
+								"value" : 0.1,
+								"current_value" : 0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Line UV Width",
+								"type" : "float",
+								"label" : "Line UV Width",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"current_value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Propagate Priority",
+								"type" : "bool",
+								"label" : "Propagate Priority",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Render Priority"
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "T_Shirt_2067",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#T_Shirt_2067",
+				"name" : "T_Shirt_2067",
+				"label" : "Shirt",
+				"parent" : "name://@selection:",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#geometry",
+						"name" : "geometry",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"subd_normal_smoothing_mode" : "smooth_all_normals",
+						"extra" : [
+							{
+								"type" : "geometry_selection_sets",
+								"vertex_selection_sets" : [
+									{
+										"name" : "LeftSide",
+										"count" : 1031,
+										"values" : [ 0, 1, 2, 3, 4, 5, 6, 7, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 634, 635, 638, 639, 640, 641, 642, 643, 644, 645, 646, 647, 648, 649, 650, 651, 652, 653, 654, 655, 656, 657, 658, 659, 660, 661, 662, 663, 664, 665, 666, 667, 668, 669, 670, 671, 672, 673, 674, 675, 676, 677, 678, 679, 680, 681, 682, 683, 684, 685, 686, 687, 688, 689, 690, 691, 692, 693, 694, 695, 696, 697, 698, 699, 700, 701, 702, 703, 704, 705, 706, 707, 708, 709, 710, 711, 712, 713, 714, 715, 716, 717, 718, 719, 720, 721, 722, 723, 724, 725, 726, 727, 728, 729, 730, 731, 732, 733, 734, 735, 736, 737, 738, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 749, 750, 751, 752, 753, 754, 755, 756, 757, 758, 759, 760, 761, 762, 763, 764, 765, 766, 767, 768, 769, 770, 771, 772, 773, 774, 775, 776, 777, 778, 779, 780, 781, 782, 783, 784, 785, 786, 787, 788, 789, 790, 791, 792, 793, 794, 795, 796, 797, 798, 799, 800, 801, 802, 803, 804, 805, 806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 822, 823, 824, 825, 826, 827, 828, 830, 831, 832, 833, 834, 835, 836, 843, 844, 845, 846, 847, 848, 859, 864, 865, 866, 867, 870, 873, 874, 875, 876, 877, 878, 879, 888, 889, 890, 891, 893, 894, 895, 896, 903, 904, 905, 906, 907, 908, 909, 910, 911, 912, 913, 914, 915, 916, 917, 918, 919, 920, 921, 922, 935, 936, 937, 938, 942, 943, 944, 952, 953, 958, 959, 960, 961, 963, 964, 965, 966, 967, 972, 973, 974, 982, 983, 988, 989, 990, 991, 993, 994, 995, 996, 997, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1014, 1015, 1016, 1017, 1018, 1030, 1031, 1032, 1033, 1036, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1052, 1053, 1054, 1055, 1056, 1068, 1069, 1070, 1071, 1074, 1078, 1079, 1080, 1081, 1082, 1083, 1084, 1089, 1090, 1091, 1092, 1093, 1105, 1106, 1107, 1108, 1111, 1115, 1116, 1140, 1141, 1142, 1143, 1144, 1145, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154, 1155, 1156, 1157, 1158, 1159, 1160, 1161, 1162, 1163, 1164, 1165, 1166, 1167, 1168, 1182, 1183, 1184, 1185, 1186, 1187, 1188, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1207, 1208, 1209, 1210, 1211, 1212, 1213, 1214, 1215, 1216, 1217, 1218, 1274, 1275, 1276, 1277, 1278, 1279, 1280, 1281, 1282, 1283, 1284, 1285, 1286, 1287, 1288, 1289, 1290, 1291, 1292, 1293, 1294, 1295, 1296, 1297, 1298, 1299, 1300, 1301, 1302, 1306, 1307, 1308, 1309, 1310, 1311, 1312, 1313, 1314, 1317, 1318, 1321, 1322, 1325, 1328, 1329, 1330, 1331, 1332, 1333, 1334, 1335, 1336, 1337, 1338, 1339, 1340, 1341, 1342, 1343, 1344, 1345, 1346, 1347, 1348, 1349, 1350, 1351, 1352, 1353, 1354, 1355, 1356, 1357, 1358, 1359, 1360, 1361, 1362, 1363, 1364, 1365, 1366, 1367, 1368, 1369, 1370, 1371, 1372, 1373, 1374, 1375, 1376, 1377, 1378, 1379, 1380, 1381, 1382, 1383, 1384, 1385, 1386, 1387, 1388, 1442, 1443, 1444, 1445, 1446, 1447, 1448, 1449, 1450, 1451, 1452, 1453, 1454, 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1471, 1472, 1474, 1475, 1478, 1479, 1482, 1483, 1486, 1487, 1489, 1491, 1558, 1559, 1560, 1561, 1562, 1563, 1564, 1565, 1566, 1567, 1568, 1569, 1570, 1571, 1572, 1573, 1574, 1575, 1576, 1577, 1578, 1579, 1580, 1581, 1582, 1583, 1584, 1585, 1586, 1587, 1588, 1589, 1590, 1591, 1592, 1593, 1594, 1595, 1596, 1597, 1598, 1599, 1600, 1601, 1602, 1603, 1604, 1605, 1606, 1607, 1608, 1609, 1610, 1611, 1612, 1613, 1614, 1615, 1616, 1617, 1618, 1619, 1620, 1621, 1622, 1623, 1624, 1625, 1626, 1627, 1628, 1629, 1630, 1631, 1632, 1633, 1653, 1654, 1655, 1656, 1657, 1658, 1659, 1660, 1661, 1662, 1665, 1666, 1667, 1670, 1673, 1674, 1675, 1676, 1677, 1678, 1679, 1680, 1681, 1682, 1683, 1703, 1704, 1705, 1706, 1707, 1708, 1709, 1710, 1711, 1712, 1715, 1716, 1717, 1720, 1723, 1724, 1725, 1726, 1727, 1728, 1729, 1730, 1731, 1732, 1733, 1753, 1754, 1755, 1756, 1757, 1758, 1759, 1760, 1761, 1762, 1765, 1766, 1767, 1770, 1773, 1774, 1775, 1776, 1777, 1778, 1779, 1780, 1795, 1796, 1797, 1798, 1799, 1800, 1801, 1803, 1804, 1807, 1808, 1811, 1812, 1813, 1816, 1817, 1820, 1821, 1822, 1823, 1824, 1825, 1826, 1827, 1828, 1829, 1841, 1842, 1843, 1844, 1846, 1849, 1850, 1853, 1854, 1855, 1858, 1861, 1862, 1863, 1864, 1865, 1866, 1867, 1868, 1878, 1879, 1880, 1881, 1883, 1884, 1887, 1889, 1891, 1894, 1895, 1897, 1898, 1900, 1903, 1906, 1907, 1916, 1917, 1918, 1919, 1920, 1921, 1922, 1924, 1926, 1927, 1929, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001 ]
+									},
+									{
+										"name" : "RightSide",
+										"count" : 1036,
+										"values" : [ 8, 10, 11, 12, 13, 14, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451, 452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572, 573, 574, 575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585, 586, 587, 588, 589, 590, 591, 592, 593, 594, 595, 596, 597, 598, 599, 600, 601, 602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612, 613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624, 625, 626, 627, 628, 629, 630, 631, 632, 633, 636, 637, 829, 837, 838, 839, 840, 841, 842, 849, 850, 851, 852, 853, 854, 855, 856, 857, 858, 860, 861, 862, 863, 868, 869, 871, 872, 880, 881, 882, 883, 884, 885, 886, 887, 892, 897, 898, 899, 900, 901, 902, 923, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 939, 940, 941, 945, 946, 947, 948, 949, 950, 951, 954, 955, 956, 957, 962, 968, 969, 970, 971, 975, 976, 977, 978, 979, 980, 981, 984, 985, 986, 987, 992, 998, 999, 1000, 1001, 1002, 1010, 1011, 1012, 1013, 1019, 1020, 1021, 1022, 1023, 1024, 1025, 1026, 1027, 1028, 1029, 1034, 1035, 1037, 1038, 1039, 1040, 1048, 1049, 1050, 1051, 1057, 1058, 1059, 1060, 1061, 1062, 1063, 1064, 1065, 1066, 1067, 1072, 1073, 1075, 1076, 1077, 1085, 1086, 1087, 1088, 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101, 1102, 1103, 1104, 1109, 1110, 1112, 1113, 1114, 1117, 1118, 1119, 1120, 1121, 1122, 1123, 1124, 1125, 1126, 1127, 1128, 1129, 1130, 1131, 1132, 1133, 1134, 1135, 1136, 1137, 1138, 1139, 1169, 1170, 1171, 1172, 1173, 1174, 1175, 1176, 1177, 1178, 1179, 1180, 1181, 1189, 1190, 1191, 1192, 1219, 1220, 1221, 1222, 1223, 1224, 1225, 1226, 1227, 1228, 1229, 1230, 1231, 1232, 1233, 1234, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1303, 1304, 1305, 1315, 1316, 1319, 1320, 1323, 1324, 1326, 1327, 1389, 1390, 1391, 1392, 1393, 1394, 1395, 1396, 1397, 1398, 1399, 1400, 1401, 1402, 1403, 1404, 1405, 1406, 1407, 1408, 1409, 1410, 1411, 1412, 1413, 1414, 1415, 1416, 1417, 1418, 1419, 1420, 1421, 1422, 1423, 1424, 1425, 1426, 1427, 1428, 1429, 1430, 1431, 1432, 1433, 1434, 1435, 1436, 1437, 1438, 1439, 1440, 1441, 1469, 1470, 1473, 1476, 1477, 1480, 1481, 1484, 1485, 1488, 1490, 1492, 1493, 1494, 1495, 1496, 1497, 1498, 1499, 1500, 1501, 1502, 1503, 1504, 1505, 1506, 1507, 1508, 1509, 1510, 1511, 1512, 1513, 1514, 1515, 1516, 1517, 1518, 1519, 1520, 1521, 1522, 1523, 1524, 1525, 1526, 1527, 1528, 1529, 1530, 1531, 1532, 1533, 1534, 1535, 1536, 1537, 1538, 1539, 1540, 1541, 1542, 1543, 1544, 1545, 1546, 1547, 1548, 1549, 1550, 1551, 1552, 1553, 1554, 1555, 1556, 1557, 1634, 1635, 1636, 1637, 1638, 1639, 1640, 1641, 1642, 1643, 1644, 1645, 1646, 1647, 1648, 1649, 1650, 1651, 1652, 1663, 1664, 1668, 1669, 1671, 1672, 1684, 1685, 1686, 1687, 1688, 1689, 1690, 1691, 1692, 1693, 1694, 1695, 1696, 1697, 1698, 1699, 1700, 1701, 1702, 1713, 1714, 1718, 1719, 1721, 1722, 1734, 1735, 1736, 1737, 1738, 1739, 1740, 1741, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1749, 1750, 1751, 1752, 1763, 1764, 1768, 1769, 1771, 1772, 1781, 1782, 1783, 1784, 1785, 1786, 1787, 1788, 1789, 1790, 1791, 1792, 1793, 1794, 1802, 1805, 1806, 1809, 1810, 1814, 1815, 1818, 1819, 1830, 1831, 1832, 1833, 1834, 1835, 1836, 1837, 1838, 1839, 1840, 1845, 1847, 1848, 1851, 1852, 1856, 1857, 1859, 1860, 1869, 1870, 1871, 1872, 1873, 1874, 1875, 1876, 1877, 1882, 1885, 1886, 1888, 1890, 1892, 1893, 1896, 1899, 1901, 1902, 1904, 1905, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1923, 1925, 1928, 1930, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039, 2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050, 2051, 2052, 2053, 2054, 2055, 2056, 2057, 2058, 2059, 2060, 2061, 2062, 2063, 2064, 2065, 2066 ]
+									}
+								]
+							},
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 0
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"conform_target" : "name://@selection:",
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -48.477, 8.621, -15.667 ],
+						"max" : [ 47.102, 163.248, 17.105 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#T_Shirt_2067",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 103.5941, 1.915123 ],
+					"end_point" : [ 0, 86.71755, 0.6914883 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "pelvis",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#pelvis",
+				"name" : "pelvis",
+				"label" : "Pelvis",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -18.896, -15.1, -15.619 ],
+						"max" : [ 19.649, 2.412, 15.107 ]
+					},
+					"center_point" : [ 0, 105.529, 1.80733 ],
+					"end_point" : [ 0, 85.9352, 2.431853 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "lThighBend",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#lThighBend",
+				"name" : "lThighBend",
+				"label" : "Left Thigh Bend",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.751, -4.406, -5.478 ],
+						"max" : [ 11.631, 9.932, 12.797 ]
+					},
+					"center_point" : [ 7.611847, 94.49228, 0.810459 ],
+					"end_point" : [ 10.89325, 74.02975, 0.2178856 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "lThighTwist",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#lThighTwist",
+				"name" : "lThighTwist",
+				"label" : "Left Thigh Twist",
+				"parent" : "#lThighBend",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 10.17801, 73.84615, 0.2876684 ],
+					"end_point" : [ 13.82242, 53.18878, -0.2401136 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "lShin",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#lShin",
+				"name" : "lShin",
+				"label" : "Left Shin",
+				"parent" : "#lThighTwist",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 14.47647, 49.993, -2.036238 ],
+					"end_point" : [ 20.28804, 9.154297, -5.214367 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "rThighBend",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#rThighBend",
+				"name" : "rThighBend",
+				"label" : "Right Thigh Bend",
+				"parent" : "#pelvis",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -7.611847, 94.49228, 0.810459 ],
+					"end_point" : [ -10.89325, 74.02975, 0.2178856 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "rThighTwist",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#rThighTwist",
+				"name" : "rThighTwist",
+				"label" : "Right Thigh Twist",
+				"parent" : "#rThighBend",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -10.17801, 73.84615, 0.2876684 ],
+					"end_point" : [ -13.82242, 53.18878, -0.2401136 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "rShin",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#rShin",
+				"name" : "rShin",
+				"label" : "Right Shin",
+				"parent" : "#rThighTwist",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -14.47647, 49.993, -2.036238 ],
+					"end_point" : [ -20.28804, 9.154297, -5.214367 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "abdomenLower",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#abdomenLower",
+				"name" : "abdomenLower",
+				"label" : "Abdomen Lower",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -16.559, -3.096, -11.464 ],
+						"max" : [ 16.947, 10.18, 16.759 ]
+					},
+					"center_point" : [ 0, 105.4197, 0.1559995 ],
+					"end_point" : [ 0, 113.7622, -0.6516659 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "abdomenUpper",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#abdomenUpper",
+				"name" : "abdomenUpper",
+				"label" : "Abdomen Upper",
+				"parent" : "#abdomenLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -16.809, -1.094, -13.884 ],
+						"max" : [ 16.814, 15.622, 14.044 ]
+					},
+					"center_point" : [ 0, 113.851, 0.7088884 ],
+					"end_point" : [ 0, 121.6108, -0.3588328 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "chestLower",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#chestLower",
+				"name" : "chestLower",
+				"label" : "Chest Lower",
+				"parent" : "#abdomenUpper",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -18.383, 1.112, -15.34 ],
+						"max" : [ 18.31, 19.85, 14.066 ]
+					},
+					"center_point" : [ 0, 122.0601, -0.008112133 ],
+					"end_point" : [ 0, 142.8653, 1.385201 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "chestUpper",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#chestUpper",
+				"name" : "chestUpper",
+				"label" : "Chest Upper",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -18.333, -2.856, -11.958 ],
+						"max" : [ 18.515, 17.765, 14.803 ]
+					},
+					"center_point" : [ 0, 135.2389, -3.512701 ],
+					"end_point" : [ 0, 148.9166, -2.571884 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "lCollar",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#lCollar",
+				"name" : "lCollar",
+				"label" : "Left Collar",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 5.811, -9.286, -9.418 ],
+						"max" : [ 17.709, 5.296, 10.373 ]
+					},
+					"center_point" : [ 4.063411, 146.5237, -4.624425 ],
+					"end_point" : [ 15.6162, 147.6652, -5.539772 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "lShldrBend",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#lShldrBend",
+				"name" : "lShldrBend",
+				"label" : "Left Shoulder Bend",
+				"parent" : "#lCollar",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 17.99179, 145.562, -5.719193 ],
+					"end_point" : [ 26.11068, 136.41, -5.207301 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "lShldrTwist",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#lShldrTwist",
+				"name" : "lShldrTwist",
+				"label" : "Left Shoulder Twist",
+				"parent" : "#lShldrBend",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 26.18677, 136.4074, -5.23911 ],
+					"end_point" : [ 35.40354, 125.5839, -4.692801 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "lForearmBend",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#lForearmBend",
+				"name" : "lForearmBend",
+				"label" : "Left Forearm Bend",
+				"parent" : "#lShldrTwist",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 35.22939, 126.089, -4.96133 ],
+					"end_point" : [ 44.36453, 117.0928, -1.654129 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "rCollar",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#rCollar",
+				"name" : "rCollar",
+				"label" : "Right Collar",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -17.231, -8.505, -10.189 ],
+						"max" : [ -4.552, 5.495, 10.413 ]
+					},
+					"center_point" : [ -4.063411, 146.5237, -4.624425 ],
+					"end_point" : [ -15.6162, 147.6652, -5.539772 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "rShldrBend",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#rShldrBend",
+				"name" : "rShldrBend",
+				"label" : "Right Shoulder Bend",
+				"parent" : "#rCollar",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -17.99179, 145.562, -5.719193 ],
+					"end_point" : [ -26.11068, 136.41, -5.207301 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "rShldrTwist",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#rShldrTwist",
+				"name" : "rShldrTwist",
+				"label" : "Right Shoulder Twist",
+				"parent" : "#rShldrBend",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -26.18677, 136.4074, -5.23911 ],
+					"end_point" : [ -35.40354, 125.5839, -4.692801 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "rForearmBend",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#rForearmBend",
+				"name" : "rForearmBend",
+				"label" : "Right Forearm Bend",
+				"parent" : "#rShldrTwist",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -35.22939, 126.089, -4.96133 ],
+					"end_point" : [ -44.36453, 117.0928, -1.654129 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "neckLower",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#neckLower",
+				"name" : "neckLower",
+				"label" : "Neck Lower",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 154.2024, -4.287979 ],
+					"end_point" : [ 0, 157.8335, -3.104819 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "neckUpper",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#neckUpper",
+				"name" : "neckUpper",
+				"label" : "Neck Upper",
+				"parent" : "#neckLower",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 157.7291, -2.052884 ],
+					"end_point" : [ 0, 163.2163, -1.525104 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "lPectoral",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#lPectoral",
+				"name" : "lPectoral",
+				"label" : "Left Pectoral",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -2.071, -2.992, 19.199 ],
+						"max" : [ 4.764, 2.655, 21.94 ]
+					},
+					"center_point" : [ 3.68573, 130.4377, -9.287436 ],
+					"end_point" : [ 10.83739, 134.9564, 9.536959 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			},
+			{
+				"id" : "rPectoral",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#rPectoral",
+				"name" : "rPectoral",
+				"label" : "Right Pectoral",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.489, -3.054, 18.677 ],
+						"max" : [ 4.077, 2.657, 22.175 ]
+					},
+					"center_point" : [ -3.68573, 130.4377, -9.287436 ],
+					"end_point" : [ -10.83739, 134.9564, 9.536959 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 2
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/T_Shirt_2067.dsf#SkinBinding",
+				"parent" : "#geometry",
+				"extra" : [
+					{
+						"type" : "skin_settings",
+						"auto_normalize_general" : true,
+						"auto_normalize_local" : true,
+						"auto_normalize_scale" : true,
+						"binding_mode" : "General",
+						"general_map_mode" : "DualQuat",
+						"scale_mode" : "BindingMaps"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Cloth-1",
+				"url" : "#Cloth",
+				"geometry" : "#geometry",
+				"groups" : [ "Cloth" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 0.6196078, 0.6196078, 0.6196078 ],
+						"image_file" : "/Runtime/Textures/Disruptive%20Publishers/Diego%20Popstar/T-ShirtDiffuseMap.tga"
+					}
+				},
+				"diffuse_strength" : {
+					"channel" : {
+						"id" : "diffuse_strength",
+						"type" : "float",
+						"name" : "Diffuse Strength",
+						"current_value" : 0.52,
+						"image" : null
+					}
+				},
+				"specular" : {
+					"channel" : {
+						"id" : "specular",
+						"type" : "color",
+						"name" : "Specular Color",
+						"current_value" : [ 0.6313725, 0.6313725, 0.6313725 ],
+						"image_file" : "/Runtime/Textures/Disruptive%20Publishers/Diego%20Popstar/T-ShirtSpecularMap.tga"
+					}
+				},
+				"specular_strength" : {
+					"channel" : {
+						"id" : "specular_strength",
+						"type" : "float",
+						"name" : "Specular Strength",
+						"current_value" : 1,
+						"image" : null
+					}
+				},
+				"glossiness" : {
+					"channel" : {
+						"id" : "glossiness",
+						"type" : "float",
+						"name" : "Glossiness",
+						"current_value" : 0.58,
+						"image" : null
+					}
+				},
+				"ambient" : {
+					"channel" : {
+						"id" : "ambient",
+						"type" : "color",
+						"name" : "Ambient Color",
+						"current_value" : [ 0, 0, 0 ],
+						"image" : null
+					}
+				},
+				"ambient_strength" : {
+					"channel" : {
+						"id" : "ambient_strength",
+						"type" : "float",
+						"name" : "Ambient Strength",
+						"current_value" : 1,
+						"image" : null
+					}
+				},
+				"reflection" : {
+					"channel" : {
+						"id" : "reflection",
+						"type" : "color",
+						"name" : "Reflection Color",
+						"current_value" : [ 1, 1, 1 ],
+						"image" : null
+					}
+				},
+				"reflection_strength" : {
+					"channel" : {
+						"id" : "reflection_strength",
+						"type" : "float",
+						"name" : "Reflection Strength",
+						"current_value" : 0,
+						"image" : null
+					}
+				},
+				"refraction" : {
+					"channel" : {
+						"id" : "refraction",
+						"type" : "color",
+						"name" : "Refraction Color",
+						"current_value" : [ 1, 1, 1 ],
+						"image" : null
+					}
+				},
+				"refraction_strength" : {
+					"channel" : {
+						"id" : "refraction_strength",
+						"type" : "float",
+						"name" : "Refraction Strength",
+						"current_value" : 0,
+						"image" : null
+					}
+				},
+				"ior" : {
+					"channel" : {
+						"id" : "ior",
+						"type" : "float",
+						"name" : "Index of Refraction",
+						"current_value" : 0
+					}
+				},
+				"bump" : {
+					"channel" : {
+						"id" : "bump",
+						"type" : "float",
+						"name" : "Bump Strength",
+						"current_value" : 0,
+						"image" : null
+					}
+				},
+				"bump_min" : {
+					"channel" : {
+						"id" : "bump_min",
+						"type" : "float",
+						"name" : "Negative Bump",
+						"current_value" : -0.01
+					}
+				},
+				"bump_max" : {
+					"channel" : {
+						"id" : "bump_max",
+						"type" : "float",
+						"name" : "Positive Bump",
+						"current_value" : 0.01
+					}
+				},
+				"displacement" : {
+					"channel" : {
+						"id" : "displacement",
+						"type" : "float",
+						"name" : "Displacement Strength",
+						"current_value" : 0,
+						"image" : null
+					}
+				},
+				"displacement_min" : {
+					"channel" : {
+						"id" : "displacement_min",
+						"type" : "float",
+						"name" : "Minimum Displacement",
+						"current_value" : -0.1
+					}
+				},
+				"displacement_max" : {
+					"channel" : {
+						"id" : "displacement_max",
+						"type" : "float",
+						"name" : "Maximum Displacement",
+						"current_value" : 0.1
+					}
+				},
+				"transparency" : {
+					"channel" : {
+						"id" : "transparency",
+						"type" : "float",
+						"name" : "Opacity Strength",
+						"current_value" : 1,
+						"image" : null
+					}
+				},
+				"normal" : {
+					"channel" : {
+						"id" : "normal",
+						"type" : "image",
+						"name" : "Normal Map",
+						"image" : null
+					}
+				},
+				"u_offset" : {
+					"channel" : {
+						"id" : "u_offset",
+						"type" : "float",
+						"name" : "Horizontal Offset",
+						"current_value" : 0
+					}
+				},
+				"u_scale" : {
+					"channel" : {
+						"id" : "u_scale",
+						"type" : "float",
+						"name" : "Horizontal Tiles",
+						"current_value" : 1
+					}
+				},
+				"v_offset" : {
+					"channel" : {
+						"id" : "v_offset",
+						"type" : "float",
+						"name" : "Vertical Offset",
+						"current_value" : 0
+					}
+				},
+				"v_scale" : {
+					"channel" : {
+						"id" : "v_scale",
+						"type" : "float",
+						"name" : "Vertical Tiles",
+						"current_value" : 1
+					}
+				},
+				"uv_set" : "/data/Disruptive%20Publishers/Diego%208%20Popstar/Popstar%20Shirt/UV%20Sets/Disruptive%20Publishers/Base/default.dsf#default"
+			}
+		]
+	}
+}
