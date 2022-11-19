@@ -1,0 +1,70 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Mada/StreetscapeOutfit/Streetscape%20Sweater/Morphs/Mada/Base/KeyERC_rThighBend.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Mada",
+			"email" : "",
+			"website" : "Daz3D"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-19T09:58:44Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "KeyERC_rThighBend",
+			"name" : "KeyERC_rThighBend",
+			"parent" : "/data/Mada/StreetscapeOutfit/Streetscape%20Sweater/StreetscapeSweater.dsf#NavalOfficerWaistcoat_7115",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "KeyERC_rThighBend",
+				"label" : "KeyERC_rThighBend",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Hidden",
+			"formulas" : [
+				{
+					"output" : "NavalOfficerWaistcoat_7115:#KeyERC_rThighBend?value",
+					"operations" : [
+						{ "op" : "push", "url" : "rThighBend:/data/Mada/StreetscapeOutfit/Streetscape%20Sweater/StreetscapeSweater.dsf#rThighBend?rotation/x" },
+						{ "op" : "push", "val" : -0.0125 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "NavalOfficerWaistcoat_7115:/data/Mada/StreetscapeOutfit/Streetscape%20Sweater/Morphs/Mada/Base/pJCMThighFwd_80_R.dsf#pJCMThighFwd_80_R?value",
+					"operations" : [
+						{ "op" : "push", "url" : "NavalOfficerWaistcoat_7115:#KeyERC_rThighBend?value" },
+						{ "op" : "push", "val" : [ 0.6333333, 0, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_tcb" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "KeyERC_rThighBend-1",
+				"url" : "#KeyERC_rThighBend"
+			}
+		]
+	}
+}

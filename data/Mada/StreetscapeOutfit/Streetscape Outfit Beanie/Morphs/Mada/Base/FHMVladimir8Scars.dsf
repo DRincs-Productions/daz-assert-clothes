@@ -1,0 +1,81 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Mada/StreetscapeOutfit/Streetscape%20Outfit%20Beanie/Morphs/Mada/Base/FHMVladimir8Scars.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Mada",
+			"email" : "",
+			"website" : "Daz3D"
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-19T04:45:17Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "FHMVladimir8Scars",
+			"name" : "FHMVladimir8Scars",
+			"parent" : "/data/Mada/StreetscapeOutfit/Streetscape%20Outfit%20Beanie/StreetscapeBeanie_2956.dsf#StreetscapeBeanie",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/DAZ%203D/Genesis%208/Male/Morphs/Daz%203D/Vladimir%208/FHMVladimir8Scars.png",
+				"colors" : [ [ 0.2196078, 0.3019608, 0.3882353 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "FHMVladimir8Scars",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Head",
+			"group" : "/People/Real World",
+			"morph" : {
+				"vertex_count" : 2956,
+				"deltas" : {
+					"count" : 23,
+					"values" : [
+						[ 1645, 0.002400443, 0.0009405816, 0.001933492 ],
+						[ 1646, 0.0005618674, 0.0002201603, 0.0004525691 ],
+						[ 1653, 0.003510423, 0.001375512, 0.002827551 ],
+						[ 1654, 0.001815572, 0.0007114076, 0.001462394 ],
+						[ 2540, 0.003293145, 0.001797742, 0.004492212 ],
+						[ 2541, 0.003663189, 0.001999751, 0.004996993 ],
+						[ 2542, 0.009786971, 0.00534275, 0.0133505 ],
+						[ 2543, 0.008124208, 0.004435041, 0.01108231 ],
+						[ 2544, 0.01106946, 0.004691245, 0.01100712 ],
+						[ 2545, 0.009879046, 0.004062328, 0.009446654 ],
+						[ 2546, 0.006605538, 0.00271624, 0.006316423 ],
+						[ 2547, 0.006531438, 0.00268577, 0.006245566 ],
+						[ 2686, 0.003437287, 0.00187643, 0.004688836 ],
+						[ 2687, 0.003567928, 0.001947748, 0.004867046 ],
+						[ 2796, 0.009839093, 0.005371204, 0.0134216 ],
+						[ 2797, 0.008182392, 0.004466803, 0.01116168 ],
+						[ 2798, 0.01122447, 0.004789547, 0.01125999 ],
+						[ 2799, 0.009857435, 0.004053441, 0.009425987 ],
+						[ 2800, 0.006634926, 0.002728325, 0.006344524 ],
+						[ 2801, 0.006551792, 0.00269414, 0.006265029 ],
+						[ 2875, 0.005062953, 0.002068045, 0.004733372 ],
+						[ 2876, 0.00778706, 0.003181191, 0.007283569 ],
+						[ 2877, 0.003431347, 0.001873188, 0.004680735 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "FHMVladimir8Scars-1",
+				"url" : "#FHMVladimir8Scars"
+			}
+		]
+	}
+}
