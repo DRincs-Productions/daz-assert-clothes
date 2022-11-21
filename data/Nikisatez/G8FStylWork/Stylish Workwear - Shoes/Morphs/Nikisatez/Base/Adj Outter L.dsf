@@ -1,0 +1,59 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Nikisatez/G8FStylWork/Stylish%20Workwear%20-%20Shoes/Morphs/Nikisatez/Base/Adj%20Outter%20L.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Nikisatez",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-07-16T00:28:01Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Adj Outter L",
+			"name" : "Adj Outter L",
+			"parent" : "/data/Nikisatez/G8FStylWork/Stylish%20Workwear%20-%20Shoes/shoesnew_8644.dsf#geometry",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Adj Outter L",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"region" : "Actor",
+			"group" : "/Adjustments",
+			"morph" : {
+				"vertex_count" : 8644,
+				"deltas" : {
+					"count" : 0,
+					"values" : [
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Adj Outter L-1",
+				"url" : "#Adj%20Outter%20L"
+			}
+		]
+	}
+}
