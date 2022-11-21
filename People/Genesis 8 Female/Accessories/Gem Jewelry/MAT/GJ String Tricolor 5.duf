@@ -1,0 +1,1595 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Accessories/Gem%20Jewelry/MAT/String%20Tricolor%205.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-07-16T07:18:08Z"
+	},
+	"image_library" : [
+		{
+			"id" : "SHGJW_Cord.jpg-2",
+			"name" : "SHGJW_Cord.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/esha/GemJewelry/SHGJW_Cord.jpg",
+					"label" : "SHGJW_Cord.jpg"
+				}
+			]
+		},
+		{
+			"id" : "SHGJW_CordM1.jpg",
+			"name" : "SHGJW_CordM1.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/esha/GemJewelry/SHGJW_CordM1.jpg",
+					"label" : "SHGJW_CordM1.jpg"
+				}
+			]
+		},
+		{
+			"id" : "SHGJW_CordM2.jpg",
+			"name" : "SHGJW_CordM2.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/esha/GemJewelry/SHGJW_CordM2.jpg",
+					"label" : "SHGJW_CordM2.jpg"
+				}
+			]
+		},
+		{
+			"id" : "SHGJW_CordB.png",
+			"name" : "SHGJW_CordB.png",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/esha/GemJewelry/SHGJW_CordB.png",
+					"label" : "SHGJW_CordB.png"
+				}
+			]
+		},
+		{
+			"id" : "SHGJW_CordN.png",
+			"name" : "SHGJW_CordN.png",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/esha/GemJewelry/SHGJW_CordN.png",
+					"label" : "SHGJW_CordN.png"
+				}
+			]
+		}
+	],
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "/data/esha/GemJewelry/TricolorBase/string.dsf#string",
+				"groups" : [ "string" ],
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Diffuse Color2",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Color 2",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.7297401, 0.7297401 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Color 3",
+									"type" : "float_color",
+									"value" : [ 0.7297401, 0.7297401, 0.7297401 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Reflectance Tint",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Overlay Color",
+									"type" : "float_color",
+									"value" : [ 0.7529412, 0.7529412, 0.7529412 ]
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Backscattering Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Refraction Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Color",
+									"type" : "float_color"
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/value",
+				"keys" : [ [ 0, [ 0.3333333, 0.2392157, 0.1843137 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/esha/GemJewelry/SHGJW_Cord.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color2/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/value",
+				"keys" : [ [ 0, [ 0.5490196, 0.2784314, 0.1960784 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/esha/GemJewelry/SHGJW_Cord.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%202/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/value",
+				"keys" : [ [ 0, [ 0.6705883, 0.2235294, 0.1372549 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/esha/GemJewelry/SHGJW_Cord.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Color%203/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/esha/GemJewelry/SHGJW_CordM1.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/esha/GemJewelry/SHGJW_CordM2.jpg" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Blend%202/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Base%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/SSS%20Reflectance%20Tint/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Weight%20Squared/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/value",
+				"keys" : [ [ 0, [ 0.7529412, 0.7529412, 0.7529412 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Diffuse%20Overlay%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%201%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Specular%20Lobe%202%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/value",
+				"keys" : [ [ 0, 0.85 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Dual%20Lobe%20Specular%20Ratio/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Share%20Glossy%20Inputs/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0.4 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Backscattering%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Index/value",
+				"keys" : [ [ 0, 1.5 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Abbe/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 50 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Bump%20Strength/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/esha/GemJewelry/SHGJW_CordB.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Normal%20Map/image_file",
+				"keys" : [ [ 0, "/Runtime/Textures/esha/GemJewelry/SHGJW_CordN.png" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Thin%20Walled/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Scattering%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/SSS%20Amount/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Cutout%20Opacity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Displacement%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Minimum%20Displacement/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Maximum%20Displacement/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/SubD%20Displacement%20Level/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 61.25167 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 50 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Roughness%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/string:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			}
+		]
+	}
+}

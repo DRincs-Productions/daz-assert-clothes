@@ -1,0 +1,43 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/GemJewelry/RingLongLeftG8/Morphs/esha/Base/FID_Genesis8Female.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-07-17T15:19:54Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "FID_Genesis8Female",
+			"name" : "FID_Genesis8Female",
+			"parent" : "/data/esha/GemJewelry/RingLongLeftG8/SHGNL_Rings_5304.dsf#SHGNL_Rings_5304",
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "FID_Genesis8Female",
+				"label" : "Figure ID: Genesis8Female",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 1
+			},
+			"group" : "/Hidden/AutoFit"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "FID_Genesis8Female-1",
+				"url" : "#FID_Genesis8Female"
+			}
+		]
+	}
+}

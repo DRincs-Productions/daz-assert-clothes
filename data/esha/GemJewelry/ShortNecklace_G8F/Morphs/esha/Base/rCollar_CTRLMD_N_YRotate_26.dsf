@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/GemJewelry/ShortNecklace_G8F/Morphs/esha/Base/rCollar_CTRLMD_N_YRotate_26.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-07T16:22:22Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_YRotate_26",
+			"name" : "CTRLMD_N_YRotate_26",
+			"parent" : "/data/esha/GemJewelry/ShortNecklace_G8F/SHGNL_GemNecklaceG8_2815.dsf#rCollar",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_YRotate_26",
+				"label" : "CTRLMD_N_YRotate_26",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "rCollar:#CTRLMD_N_YRotate_26?value",
+					"operations" : [
+						{ "op" : "push", "url" : "rCollar:/data/esha/GemJewelry/ShortNecklace_G8F/SHGNL_GemNecklaceG8_2815.dsf#rCollar?rotation/y" },
+						{ "op" : "push", "val" : 0.03846154 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_YRotate_26-1",
+				"url" : "#CTRLMD_N_YRotate_26"
+			}
+		]
+	}
+}

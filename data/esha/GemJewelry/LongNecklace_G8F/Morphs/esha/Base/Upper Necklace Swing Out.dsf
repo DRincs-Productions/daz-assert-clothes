@@ -1,0 +1,63 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/GemJewelry/LongNecklace_G8F/Morphs/esha/Base/Upper%20Necklace%20Swing%20Out.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-07T16:21:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Upper Necklace Swing Out",
+			"name" : "Upper Necklace Swing Out",
+			"parent" : "/data/esha/GemJewelry/LongNecklace_G8F/SHNLS_PendantNecklaceG8_1836.dsf#SHNLS_PendantNecklaceG8_1836",
+			"presentation" : {
+				"type" : "Modifier/Pose",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Upper Necklace Swing Out",
+				"label" : "Upper Necklace Swing Out",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Movement",
+			"formulas" : [
+				{
+					"output" : "SHNLS_PendantNecklaceG8_1836:#Upper%20Necklace%20Swing%20Out?value",
+					"operations" : [
+						{ "op" : "push", "url" : "SHNLS_PendantNecklaceG8_1836:/data/esha/GemJewelry/LongNecklace_G8F/Morphs/esha/Base/Necklace%20Twist.dsf#Necklace%20Twist?value" },
+						{ "op" : "push", "val" : [ -1, 0.15, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 0, 0, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 0.15, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 3 },
+						{ "op" : "spline_tcb" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Upper Necklace Swing Out-1",
+				"url" : "#Upper%20Necklace%20Swing%20Out"
+			}
+		]
+	}
+}

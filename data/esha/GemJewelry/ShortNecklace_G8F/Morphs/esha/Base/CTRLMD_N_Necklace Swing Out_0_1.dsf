@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/GemJewelry/ShortNecklace_G8F/Morphs/esha/Base/CTRLMD_N_Necklace%20Swing%20Out_0_1.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2017-08-07T16:22:22Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_Necklace Swing Out_0_1",
+			"name" : "CTRLMD_N_Necklace Swing Out_0_1",
+			"parent" : "/data/esha/GemJewelry/ShortNecklace_G8F/SHGNL_GemNecklaceG8_2815.dsf#SHGNL_GemNecklace_2816",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_Necklace Swing Out_0_1",
+				"label" : "CTRLMD_N_Necklace Swing Out_0_1",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "SHGNL_GemNecklace_2816:#CTRLMD_N_Necklace%20Swing%20Out_0_1?value",
+					"operations" : [
+						{ "op" : "push", "url" : "SHGNL_GemNecklace_2816:/data/esha/GemJewelry/ShortNecklace_G8F/Morphs/esha/Base/Necklace%20Swing%20Out.dsf#Necklace%20Swing%20Out?value" },
+						{ "op" : "push", "val" : 10 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_Necklace Swing Out_0_1-1",
+				"url" : "#CTRLMD_N_Necklace%20Swing%20Out_0_1"
+			}
+		]
+	}
+}
