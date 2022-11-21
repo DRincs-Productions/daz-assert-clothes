@@ -1,0 +1,50 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Pretty3D/Business%20Woman%20G8F/Business%20Woman%20Skirt/Morphs/Pretty3D/Base/Bottom%20Length.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Pretty3D",
+			"email" : "",
+			"website" : "https://www.pretty3d.com"
+		},
+		"revision" : "1.0",
+		"modified" : "2021-03-21T10:20:24Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Bottom Length",
+			"name" : "Bottom Length",
+			"parent" : "/data/Pretty3D/Business%20Woman%20G8F/Business%20Woman%20Skirt/p3dBusinessWomanSkirt_5200.dsf#p3dBusinessWomanSkirt_5200",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "/data/Pretty3D/Business%20Woman%20G8F/p3d_business_woman_g8f_icon.png",
+				"colors" : [ [ 1, 0.5019608, 1 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Bottom Length",
+				"label" : "Bottom Length",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Styling Morphs"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Bottom Length-1",
+				"url" : "#Bottom%20Length"
+			}
+		]
+	}
+}
