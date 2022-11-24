@@ -1,0 +1,349 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Clothing/Arryn_Onnel/Nola%20Cocktail%20Dress%20G8F/Heels%20H.Pose.duf",
+		"type" : "preset_hierarchical_pose",
+		"contributor" : {
+			"author" : "Onnel",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2019-12-31T13:55:56Z"
+	},
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis8Female",
+				"url" : "name://@selection/Genesis8Female:"
+			},
+			{
+				"id" : "hip",
+				"url" : "name://@selection/hip:",
+				"parent" : "#Genesis8Female"
+			},
+			{
+				"id" : "pelvis",
+				"url" : "name://@selection/pelvis:",
+				"parent" : "#hip"
+			},
+			{
+				"id" : "lThighBend",
+				"url" : "name://@selection/lThighBend:",
+				"parent" : "#pelvis"
+			},
+			{
+				"id" : "lThighTwist",
+				"url" : "name://@selection/lThighTwist:",
+				"parent" : "#lThighBend"
+			},
+			{
+				"id" : "lShin",
+				"url" : "name://@selection/lShin:",
+				"parent" : "#lThighTwist"
+			},
+			{
+				"id" : "rThighBend",
+				"url" : "name://@selection/rThighBend:",
+				"parent" : "#pelvis"
+			},
+			{
+				"id" : "rThighTwist",
+				"url" : "name://@selection/rThighTwist:",
+				"parent" : "#rThighBend"
+			},
+			{
+				"id" : "rShin",
+				"url" : "name://@selection/rShin:",
+				"parent" : "#rThighTwist"
+			},
+			{
+				"id" : "Nola_Heels_G8F_8484",
+				"url" : "name://@selection/Nola_Heels_G8F_8484:",
+				"parent" : "#Genesis8Female"
+			}
+		],
+		"animations" : [
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?rotation/z/value",
+				"keys" : [ [ 0, -6 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThigh?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?rotation/y/value",
+				"keys" : [ [ 0, -10 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lThighTwist?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?rotation/y/value",
+				"keys" : [ [ 0, -8 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?rotation/z/value",
+				"keys" : [ [ 0, -2 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lShin?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?rotation/z/value",
+				"keys" : [ [ 0, 6 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rThighBend:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThigh?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?rotation/y/value",
+				"keys" : [ [ 0, 10 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rThighTwist:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rThighTwist?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?rotation/y/value",
+				"keys" : [ [ 0, 8 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?rotation/z/value",
+				"keys" : [ [ 0, 2 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rShin:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rShin?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}

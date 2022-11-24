@@ -1,0 +1,2343 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Clothing/Arryn_Onnel/Nola%20Cocktail%20Dress%20G8F/Reset%20Feet%202.duf",
+		"type" : "preset_hierarchical_pose",
+		"contributor" : {
+			"author" : "Onnel",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2019-12-31T13:45:36Z"
+	},
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Genesis8Female",
+				"url" : "name://@selection/Genesis8Female:"
+			},
+			{
+				"id" : "hip",
+				"url" : "name://@selection/hip:",
+				"parent" : "#Genesis8Female"
+			},
+			{
+				"id" : "pelvis",
+				"url" : "name://@selection/pelvis:",
+				"parent" : "#hip"
+			},
+			{
+				"id" : "lThighBend",
+				"url" : "name://@selection/lThighBend:",
+				"parent" : "#pelvis"
+			},
+			{
+				"id" : "lThighTwist",
+				"url" : "name://@selection/lThighTwist:",
+				"parent" : "#lThighBend"
+			},
+			{
+				"id" : "lShin",
+				"url" : "name://@selection/lShin:",
+				"parent" : "#lThighTwist"
+			},
+			{
+				"id" : "lFoot",
+				"url" : "name://@selection/lFoot:",
+				"parent" : "#lShin"
+			},
+			{
+				"id" : "lMetatarsals",
+				"url" : "name://@selection/lMetatarsals:",
+				"parent" : "#lFoot"
+			},
+			{
+				"id" : "lToe",
+				"url" : "name://@selection/lToe:",
+				"parent" : "#lMetatarsals"
+			},
+			{
+				"id" : "lSmallToe4",
+				"url" : "name://@selection/lSmallToe4:",
+				"parent" : "#lToe"
+			},
+			{
+				"id" : "lSmallToe4_2",
+				"url" : "name://@selection/lSmallToe4_2:",
+				"parent" : "#lSmallToe4"
+			},
+			{
+				"id" : "lSmallToe3",
+				"url" : "name://@selection/lSmallToe3:",
+				"parent" : "#lToe"
+			},
+			{
+				"id" : "lSmallToe3_2",
+				"url" : "name://@selection/lSmallToe3_2:",
+				"parent" : "#lSmallToe3"
+			},
+			{
+				"id" : "lSmallToe2",
+				"url" : "name://@selection/lSmallToe2:",
+				"parent" : "#lToe"
+			},
+			{
+				"id" : "lSmallToe2_2",
+				"url" : "name://@selection/lSmallToe2_2:",
+				"parent" : "#lSmallToe2"
+			},
+			{
+				"id" : "lSmallToe1",
+				"url" : "name://@selection/lSmallToe1:",
+				"parent" : "#lToe"
+			},
+			{
+				"id" : "lSmallToe1_2",
+				"url" : "name://@selection/lSmallToe1_2:",
+				"parent" : "#lSmallToe1"
+			},
+			{
+				"id" : "lBigToe",
+				"url" : "name://@selection/lBigToe:",
+				"parent" : "#lToe"
+			},
+			{
+				"id" : "lBigToe_2",
+				"url" : "name://@selection/lBigToe_2:",
+				"parent" : "#lBigToe"
+			},
+			{
+				"id" : "rThighBend",
+				"url" : "name://@selection/rThighBend:",
+				"parent" : "#pelvis"
+			},
+			{
+				"id" : "rThighTwist",
+				"url" : "name://@selection/rThighTwist:",
+				"parent" : "#rThighBend"
+			},
+			{
+				"id" : "rShin",
+				"url" : "name://@selection/rShin:",
+				"parent" : "#rThighTwist"
+			},
+			{
+				"id" : "rFoot",
+				"url" : "name://@selection/rFoot:",
+				"parent" : "#rShin"
+			},
+			{
+				"id" : "rMetatarsals",
+				"url" : "name://@selection/rMetatarsals:",
+				"parent" : "#rFoot"
+			},
+			{
+				"id" : "rToe",
+				"url" : "name://@selection/rToe:",
+				"parent" : "#rMetatarsals"
+			},
+			{
+				"id" : "rSmallToe4",
+				"url" : "name://@selection/rSmallToe4:",
+				"parent" : "#rToe"
+			},
+			{
+				"id" : "rSmallToe4_2",
+				"url" : "name://@selection/rSmallToe4_2:",
+				"parent" : "#rSmallToe4"
+			},
+			{
+				"id" : "rSmallToe3",
+				"url" : "name://@selection/rSmallToe3:",
+				"parent" : "#rToe"
+			},
+			{
+				"id" : "rSmallToe3_2",
+				"url" : "name://@selection/rSmallToe3_2:",
+				"parent" : "#rSmallToe3"
+			},
+			{
+				"id" : "rSmallToe2",
+				"url" : "name://@selection/rSmallToe2:",
+				"parent" : "#rToe"
+			},
+			{
+				"id" : "rSmallToe2_2",
+				"url" : "name://@selection/rSmallToe2_2:",
+				"parent" : "#rSmallToe2"
+			},
+			{
+				"id" : "rSmallToe1",
+				"url" : "name://@selection/rSmallToe1:",
+				"parent" : "#rToe"
+			},
+			{
+				"id" : "rSmallToe1_2",
+				"url" : "name://@selection/rSmallToe1_2:",
+				"parent" : "#rSmallToe1"
+			},
+			{
+				"id" : "rBigToe",
+				"url" : "name://@selection/rBigToe:",
+				"parent" : "#rToe"
+			},
+			{
+				"id" : "rBigToe_2",
+				"url" : "name://@selection/rBigToe_2:",
+				"parent" : "#rBigToe"
+			},
+			{
+				"id" : "Nola_Heels_G8F_8484",
+				"url" : "name://@selection/Nola_Heels_G8F_8484:",
+				"parent" : "#Genesis8Female"
+			}
+		],
+		"animations" : [
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Expressions/eCTRLSurprised_HD.dsf#eCTRLSurprised?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Expressions/eCTRLSmileOpenFullFace_HD.dsf#eCTRLSmileOpenFullFace?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Expressions/eCTRLSmileFullFace_HD.dsf#eCTRLSmileFullFace?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Expressions/eCTRLShock_HD.dsf#eCTRLShock?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Expressions/eCTRLFrown_HD.dsf#eCTRLFrown?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Expressions/eCTRLFlirting_HD.dsf#eCTRLFlirting?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Expressions/eCTRLAngry_HD.dsf#eCTRLAngry?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Expressions/eCTRLAfraid_HD.dsf#eCTRLAfraid?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvW.dsf#eCTRLvW?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvUW.dsf#eCTRLvUW?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvTH.dsf#eCTRLvTH?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvT.dsf#eCTRLvT?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvSH.dsf#eCTRLvSH?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvS.dsf#eCTRLvS?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvOW.dsf#eCTRLvOW?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvM.dsf#eCTRLvM?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvL.dsf#eCTRLvL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvK.dsf#eCTRLvK?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvIY.dsf#eCTRLvIY?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvIH.dsf#eCTRLvIH?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvF.dsf#eCTRLvF?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvER.dsf#eCTRLvER?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvEH.dsf#eCTRLvEH?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvEE.dsf#eCTRLvEE?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLvAA.dsf#eCTRLvAA?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLTongueUp-Down.dsf#CTRLTongueUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLTongueSide-Side.dsf#CTRLTongueSide-Side?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLTongueRaise-Lower.dsf#CTRLTongueRaise-Lower?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLTongueNarrow-Wide.dsf#CTRLTongueNarrow-Wide?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLTongueIn-Out.dsf#CTRLTongueIn-Out?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLTongueCurl.dsf#CTRLTongueCurl?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLTongueBendTip.dsf#CTRLTongueBendTip?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLNostrilsFlex.dsf#eCTRLNostrilsFlex?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLNoseWrinkle.dsf#eCTRLNoseWrinkle?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLNoseScrunch.dsf#eCTRLNoseScrunch?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthWideR.dsf#eCTRLMouthWideR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthWideL.dsf#eCTRLMouthWideL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthWide-NarrowR.dsf#eCTRLMouthWide-NarrowR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthWide-NarrowL.dsf#eCTRLMouthWide-NarrowL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthWide-Narrow.dsf#eCTRLMouthWide-Narrow?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthSmileSimpleR.dsf#eCTRLMouthSmileSimpleR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthSmileSimpleL.dsf#eCTRLMouthSmileSimpleL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthSmileSimple.dsf#eCTRLMouthSmileSimple?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthSmileOpen.dsf#eCTRLMouthSmileOpen?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthSmile.dsf#eCTRLMouthSmile?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthSide-SideR.dsf#eCTRLMouthSide-SideR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthSide-SideL.dsf#eCTRLMouthSide-SideL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthSide-Side.dsf#eCTRLMouthSide-Side?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthOpenLipsClose.dsf#eCTRLMouthOpenLipsClose?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthOpen.dsf#eCTRLMouthOpen?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthNarrowR.dsf#eCTRLMouthNarrowR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthNarrowL.dsf#eCTRLMouthNarrowL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthFrown.dsf#eCTRLMouthFrown?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthCornerUp-DownR.dsf#eCTRLMouthCornerUp-DownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthCornerUp-DownL.dsf#eCTRLMouthCornerUp-DownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthCornerUp-Down.dsf#eCTRLMouthCornerUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthCornerForward-BackR.dsf#eCTRLMouthCornerForward-BackR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthCornerForward-BackL.dsf#eCTRLMouthCornerForward-BackL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthCornerForward-Back.dsf#eCTRLMouthCornerForward-Back?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthClosed.dsf#eCTRLMouthClosed?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLMouthBareTeeth.dsf#eCTRLMouthBareTeeth?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipTopUp-DownR.dsf#eCTRLLipTopUp-DownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipTopUp-DownL.dsf#eCTRLLipTopUp-DownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipTopUp-Down.dsf#eCTRLLipTopUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipTopOut-InR.dsf#eCTRLLipTopOut-InR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipTopOut-InL.dsf#eCTRLLipTopOut-InL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipTopOut-In.dsf#eCTRLLipTopOut-In?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipsPuckerWide.dsf#eCTRLLipsPuckerWide?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipsPucker.dsf#eCTRLLipsPucker?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipsPucker-Pressed.dsf#eCTRLLipsPucker-Pressed?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipsPressed.dsf#eCTRLLipsPressed?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipsPartCenter.dsf#eCTRLLipsPartCenter?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipsPart.dsf#eCTRLLipsPart?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipsClosed-BareTeeth.dsf#eCTRLLipsClosed-BareTeeth?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipBottomUp-DownR.dsf#eCTRLLipBottomUp-DownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipBottomUp-DownL.dsf#eCTRLLipBottomUp-DownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipBottomUp-Down.dsf#eCTRLLipBottomUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipBottomOut-InR.dsf#eCTRLLipBottomOut-InR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipBottomOut-InL.dsf#eCTRLLipBottomOut-InL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLLipBottomOut-In.dsf#eCTRLLipBottomOut-In?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLJawSide-Side.dsf#CTRLJawSide-Side?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLJawOut-In.dsf#CTRLJawIn-Out?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesWidenR.dsf#eCTRLEyesWidenR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesWidenL.dsf#eCTRLEyesWidenL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesUpDown.dsf#ECTRLEyesUpDown?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesSquintR.dsf#eCTRLEyesSquintR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesSquintL.dsf#eCTRLEyesSquintL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesSquint-WidenR.dsf#eCTRLEyesSquint-WidenR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesSquint-WidenL.dsf#eCTRLEyesSquint-WidenL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesSquint-Widen.dsf#eCTRLEyesSquint-Widen?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesSideSide.dsf#ECTRLEyesSideSide?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesRelaxR.dsf#eCTRLEyesRelaxR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesRelaxL.dsf#eCTRLEyesRelaxL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesRelax.dsf#eCTRLEyesRelax?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesCrossed.dsf#eCTRLEyesCrossed?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesClosedR.dsf#ECTRLEyesClosedR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesClosedL.dsf#ECTRLEyesClosedL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyesClosed.dsf#ECTRLEyesClosed?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsUpperUpR.dsf#eCTRLEyelidsUpperUpR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsUpperUpL.dsf#eCTRLEyelidsUpperUpL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsUpperUp-DownR.dsf#eCTRLEyelidsUpperUp-DownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsUpperUp-DownL.dsf#eCTRLEyelidsUpperUp-DownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsUpperUp-Down.dsf#eCTRLEyelidsUpperUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsUpperDownR.dsf#eCTRLEyelidsUpperDownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsUpperDownL.dsf#eCTRLEyelidsUpperDownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsLowerUpDownR.dsf#ECTRLEyelidsLowerUpDownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsLowerUpDownL.dsf#ECTRLEyelidsLowerUpDownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLEyelidsLowerUpDown.dsf#ECTRLEyelidsLowerUpDown?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheeksSuckInR.dsf#eCTRLCheeksSuckInR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheeksSuckInL.dsf#eCTRLCheeksSuckInL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekSlackR.dsf#eCTRLCheekSlackR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekSlackL.dsf#eCTRLCheekSlackL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheeksBalloonR.dsf#eCTRLCheeksBalloonR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheeksBalloonPucker.dsf#eCTRLCheeksBalloonPucker?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheeksBalloonL.dsf#eCTRLCheeksBalloonL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheeksBalloon-SuckInR.dsf#eCTRLCheeksBalloon-SuckInR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheeksBalloon-SuckInL.dsf#eCTRLCheeksBalloon-SuckInL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheeksBalloon-SuckIn.dsf#eCTRLCheeksBalloon-SuckIn?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekFlexR.dsf#eCTRLCheekFlexR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekFlexL.dsf#eCTRLCheekFlexL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekFlex-SlackR.dsf#eCTRLCheekFlex-SlackR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekFlex-SlackL.dsf#eCTRLCheekFlex-SlackL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekFlex-Slack.dsf#eCTRLCheekFlex-Slack?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekEyeFlexR.dsf#eCTRLCheekEyeFlexR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekEyeFlexL.dsf#eCTRLCheekEyeFlexL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekEyeFlex.dsf#eCTRLCheekEyeFlex?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLCheekCrease.dsf#eCTRLCheekCrease?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowUp-DownR.dsf#eCTRLBrowUp-DownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowUp-DownL.dsf#eCTRLBrowUp-DownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowUp-Down.dsf#eCTRLBrowUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowSqueezeR.dsf#eCTRLBrowSqueezeR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowSqueezeL.dsf#eCTRLBrowSqueezeL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowSqueeze.dsf#eCTRLBrowSqueeze?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowOuterUp-DownR.dsf#eCTRLBrowOuterUp-DownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowOuterUp-DownL.dsf#eCTRLBrowOuterUp-DownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowOuterUp-Down.dsf#eCTRLBrowOuterUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowInnerUp-DownR.dsf#eCTRLBrowInnerUp-DownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowInnerUp-DownL.dsf#eCTRLBrowInnerUp-DownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/eCTRLBrowInnerUp-Down.dsf#eCTRLBrowInnerUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/CTRLCheeksDimpleCreaseHD.dsf#CTRLCheeksDimpleCreaseHD?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLWaistTwist.dsf#pCTRLWaistTwist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLWaistSide.dsf#pCTRLWaistSide?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLWaistBend.dsf#pCTRLWaistBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLTorsoSlump.dsf#pCTRLTorsoSlump?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLShouldersShrug.dsf#pCTRLShouldersShrug?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLShldrsFrntBck.dsf#pCTRLShldrsFrntBck?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrToesSpread.dsf#CTRLToesSpreadR?value/value",
+				"keys" : [ [ 0, -0.5 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrToesSmallCurl.dsf#pCTRLrToesSmallCurl?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrToesFanDown.dsf#CTRLToesFanDownR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrThumbInOut.dsf#CTRLrThumbInOut?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrThumbGrasp.dsf#CTRLrThumbGrasp?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrThumbFist.dsf#CTRLrThumbFist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrThumbBend.dsf#CTRLrThumbBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrRingToeBend.dsf#CTRLrRingToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrRingBend.dsf#CTRLrRingBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrPinkyToeBend.dsf#CTRLrPinkyToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrPinkyBend.dsf#CTRLrPinkyBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrMidToeBend.dsf#CTRLrMidToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrMidBend.dsf#CTRLrMidBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrIndexToeBend.dsf#CTRLrIndexToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrIndexBend.dsf#CTRLrIndexBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrHandSpread.dsf#CTRLrHandSpread?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrHandGrasp.dsf#CTRLrHandGrasp?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrHandFist.dsf#CTRLrHandFist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrHandChop.dsf#CTRLrHandChop?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrFootTwist.dsf#CTRLrFootTwist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrFootTipToes.dsf#pCTRLrFootTipToes?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrFootRoll.dsf#CTRLrFootRoll?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrFootHeeledShoe.dsf#pCTRLrFootHeeledShoe?value/value",
+				"keys" : [ [ 0, 0.825 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrFingersInOut.dsf#CTRLrFingersInOut?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrFingersGrasp.dsf#CTRLrFingersGrasp?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrFingersFist.dsf#CTRLrFingersFist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrBreastUp-Down.dsf#CTRLrBreastUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrBreastSide-Side.dsf#CTRLrBreastSide-Side?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLrBigToeBend.dsf#CTRLrBigToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLNeckHeadTwist.dsf#CTRLNeckHeadTwist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLNeckHeadSide-Side.dsf#CTRLNeckHeadSide-Side?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLNeckHeadBend.dsf#CTRLNeckHeadBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlToesSpread.dsf#CTRLToesSpreadL?value/value",
+				"keys" : [ [ 0, -0.5 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlToesSmallCurl.dsf#pCTRLlToesSmallCurl?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlToesFanDown.dsf#CTRLToesFanDownL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlThumbInOut.dsf#CTRLlThumbInOut?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlThumbGrasp.dsf#CTRLlThumbGrasp?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlThumbFist.dsf#CTRLlThumbFist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlThumbBend.dsf#CTRLlThumbBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlRingToeBend.dsf#CTRLlRingToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlRingBend.dsf#CTRLlRingBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlPinkyToeBend.dsf#CTRLlPinkyToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlPinkyBend.dsf#CTRLlPinkyBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlMidToeBend.dsf#CTRLlMidToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlMidBend.dsf#CTRLlMidBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlIndexToeBend.dsf#CTRLlIndexToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlIndexBend.dsf#CTRLlIndexBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlHandSpread.dsf#CTRLlHandSpread?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlHandGrasp.dsf#CTRLlHandGrasp?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlHandFist.dsf#CTRLlHandFist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlHandChop.dsf#CTRLlHandChop?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlFootTwist.dsf#CTRLlFootTwist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlFootTipToes.dsf#pCTRLlFootTipToes?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlFootRoll.dsf#CTRLlFootRoll?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlFootHeeledShoe.dsf#pCTRLlFootHeeledShoe?value/value",
+				"keys" : [ [ 0, 0.825 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlFingersInOut.dsf#CTRLlFingersInOut?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlFingersGrasp.dsf#CTRLlFingersGrasp?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlFingersFist.dsf#CTRLlFingersFist?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLLegsSpreadRight.dsf#CTRLLegsSpreadRight?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLLegsSpreadLeft.dsf#CTRLLegsSpreadLeft?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLLegsSpread.dsf#CTRLLegsSpread?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlBreastUp-Down.dsf#CTRLlBreastUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlBreastSide-Side.dsf#CTRLlBreastSide-Side?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLlBigToeBend.dsf#CTRLlBigToeBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLKneesUpRight.dsf#pCTRLKneesUpRight?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLKneesUpLeft.dsf#pCTRLKneesUpLeft?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLKneesUp.dsf#pCTRLKneesUp?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLHipBendFwd.dsf#pCTRLHipBendFwd?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLHipBendBck.dsf#pCTRLHipBendBck?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLHipBend.dsf#CTRLHipBend?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLBreastsUp-Down.dsf#CTRLBreastsUp-Down?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLBreastsSide-Side.dsf#CTRLBreastsSide-Side?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLBreastsIn-Out.dsf#CTRLBreastsIn-Out?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLBreastsHangForward.dsf#pCTRLBreastsHangForward?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLBreastsFlatten.dsf#pCTRLBreastsFlatten?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLArmsUpDwnRight.dsf#CTRLArmsUpDwnRight?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLArmsUpDwnLeft.dsf#CTRLArmsUpDwnLeft?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLArmsUpDwn.dsf#CTRLArmsUpDwn?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLArmsFrntBckRight.dsf#pCTRLArmsFrntBckRight?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLArmsFrntBckLeft.dsf#pCTRLArmsFrntBckLeft?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pCTRLArmsFrntBck.dsf#CTRLArmsFrntBck?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/ValeriaHeelsG8F/ValeriaHeelsG8F.dsf#ValeriaHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/Temp/SlingSource.dsf#SlingSource?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/SlingbacksG8F/SlingbacksG8F.dsf#SlingbacksG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/RoseSource/RoseSource.dsf#RoseSource?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/RoseHeelsG8F/RoseHeelsG8F.dsf#RoseHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/PantiesForBeauty/PantiesStand.dsf#PantiesStand?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/MaryBootsG8F/MaryBootsG8F.dsf#MaryBootsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/LucyHeelsG8F/LucyHeelsG8F.dsf#LucyHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/LightHeels/LightHeels.dsf#LightHeels?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/JeanneHeelsG8F/JeanneHeelsG8F.dsf#JeanneHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/IreneSource/IreneSource.dsf#IreneSource?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/IreneHeelsG8F/IreneHeelsG8F.dsf#IreneHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/HighSource/HighSource.dsf#HighSource?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/HighHeelsG8F/HighHeelsG8F.dsf#HighHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/HighBoots_G8F/HighBoots_G8F.dsf#HighBoots_G8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/HighBootsG8F/HighBootsG8F.dsf#HighBootsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/HelenHeelsG8F/HelenHeelsG8F.dsf#HelenHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/CynthiaHeelsG8F/CynthiaHeelsG8F.dsf#CynthiaHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/CatharinaSource/CatharinaSource.dsf#CatharinaSource?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/CatharinaBootsG8F/CatharinaBootsG8F.dsf#CatharinaBootsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/BettieHeelsG8F/BettieHeelsG8F.dsf#BettieHeelsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/AugustaBootsG8F/AugustaBootsG8F.dsf#AugustaBootsG8F?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Arryn/AliceSource/AliceSource.dsf#AliceSource?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/PHMNoseCompression_HD_div2.dsf#PHMNoseCompression_HD_div2?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/PHMCheeksDimpleCreaseR_HD_div2.dsf#PHMCheeksDimpleCreaseR_HD_div2?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/PHMCheeksDimpleCreaseL_HD_div2.dsf#PHMCheeksDimpleCreaseL_HD_div2?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/PHMBrowCompression_HD_div2.dsf#PHMBrowCompression_HD_div2?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/ePHMCheekCreaseR.dsf#ePHMCheekCreaseR?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose%20Head/ePHMCheekCreaseL.dsf#ePHMCheekCreaseL?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pPBMrBreastsHangForward.dsf#pPBMrBreastsHangForward?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pPBMrBreastsFlatten.dsf#pPBMrBreastsFlatten?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pPBMlBreastsHangForward.dsf#pPBMlBreastsHangForward?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Pose/pPBMlBreastsFlatten.dsf#pPBMlBreastsFlatten?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Flexions/pJCMFlexQuad_R.dsf#pJCMFlexQuad_R?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Flexions/pJCMFlexQuad_L.dsf#pJCMFlexQuad_L?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Flexions/pJCMFlexGluteClench_R.dsf#pJCMFlexGluteClench_R?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/DAZ%203D/Base%20Flexions/pJCMFlexGluteClench_L.dsf#pJCMFlexGluteClench_L?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Crocodile/Kanade8/Kanade8%20Smile.dsf#Kanade8%20Smile?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Genesis8Female:/data/DAZ%203D/Genesis%208/Female/Morphs/Crocodile/Kanade8/Kanade8%20Angry.dsf#Kanade8%20Angry?value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lFoot?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lMetatarsals?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?rotation/x/value",
+				"keys" : [ [ 0, -7.152557e-07 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lToe?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe4_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?rotation/x/value",
+				"keys" : [ [ 0, 2 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?rotation/x/value",
+				"keys" : [ [ 0, -5 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe3_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?rotation/x/value",
+				"keys" : [ [ 0, 5 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?rotation/x/value",
+				"keys" : [ [ 0, -10 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe2_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?rotation/x/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?rotation/x/value",
+				"keys" : [ [ 0, -10 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lSmallToe1_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "lBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#lBigToe2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rFoot:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rFoot?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rMetatarsals:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rMetatarsals?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?rotation/x/value",
+				"keys" : [ [ 0, -7.152557e-07 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rToe?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe4:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe4_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe4_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?rotation/x/value",
+				"keys" : [ [ 0, 2 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe3:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?rotation/x/value",
+				"keys" : [ [ 0, -5 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe3_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe3_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?rotation/x/value",
+				"keys" : [ [ 0, 5 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?rotation/x/value",
+				"keys" : [ [ 0, -10 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe2_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe2_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?rotation/x/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe1:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?rotation/x/value",
+				"keys" : [ [ 0, -10 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rSmallToe1_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rSmallToe1_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rBigToe:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "rBigToe_2:/data/DAZ%203D/Genesis%208/Female/Genesis8Female.dsf#rBigToe_2?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?translation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?translation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?translation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?rotation/x/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?rotation/y/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?rotation/z/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?scale/general/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?scale/x/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?scale/y/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "Nola_Heels_G8F_8484:/data/Onnel/Nola%20Cocktail%20Dress%20G8F/Nola%20Heels%20G8F/Nola_Heels_G8F_8484.dsf#Nola_Heels_G8F_8484?scale/z/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}
