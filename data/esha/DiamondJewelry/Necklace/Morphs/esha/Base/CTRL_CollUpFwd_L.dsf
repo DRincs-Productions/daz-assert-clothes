@@ -1,0 +1,65 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/DiamondJewelry/Necklace/Morphs/esha/Base/CTRL_CollUpFwd_L.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-03-22T15:29:33Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRL_CollUpFwd_L",
+			"name" : "CTRL_CollUpFwd_L",
+			"parent" : "/data/esha/DiamondJewelry/Necklace/SH318-Necklace_11833.dsf#SH318-Necklace_11833",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRL_CollUpFwd_L",
+				"label" : "CTRL_CollUpFwd_L",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Hidden",
+			"formulas" : [
+				{
+					"output" : "SH318-Necklace_11833:#CTRL_CollUpFwd_L?value",
+					"operations" : [
+						{ "op" : "push", "url" : "lCollar:/data/esha/DiamondJewelry/Necklace/Morphs/esha/Base/lCollar_CTRLMD_N_YRotate_n26.dsf#CTRLMD_N_YRotate_n26?value" }
+					]
+				},
+				{
+					"output" : "SH318-Necklace_11833:#CTRL_CollUpFwd_L?value",
+					"stage" : "mult",
+					"operations" : [
+						{ "op" : "push", "url" : "lCollar:/data/esha/DiamondJewelry/Necklace/Morphs/esha/Base/lCollar_CTRLMD_N_ZRotate_55.dsf#CTRLMD_N_ZRotate_55?value" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRL_CollUpFwd_L-1",
+				"url" : "#CTRL_CollUpFwd_L"
+			}
+		]
+	}
+}
