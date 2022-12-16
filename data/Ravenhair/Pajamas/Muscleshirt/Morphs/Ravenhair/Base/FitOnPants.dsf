@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Ravenhair/Pajamas/Muscleshirt/Morphs/Ravenhair/Base/FitOnPants.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Ravenhair",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-01-19T01:32:28Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "FitOnPants",
+			"name" : "FitOnPants",
+			"parent" : "/data/Ravenhair/Pajamas/Muscleshirt/MuscleShirt_10388.dsf#MuscleShirt_10388",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "FitOnPants",
+				"label" : "FitOnPants",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"region" : "Actor",
+			"group" : "/Adjustments",
+			"formulas" : [
+				{
+					"output" : "MuscleShirt_10388:/data/Ravenhair/Pajamas/Muscleshirt/Morphs/Ravenhair/Base/AdjHips.dsf#AdjHips?value",
+					"operations" : [
+						{ "op" : "push", "url" : "MuscleShirt_10388:#FitOnPants?value" },
+						{ "op" : "push", "val" : 0.4 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "FitOnPants-1",
+				"url" : "#FitOnPants"
+			}
+		]
+	}
+}

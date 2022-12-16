@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Male/Clothing/Pajamas/Details/Seams_Pants.duf",
+		"type" : "preset_shape",
+		"contributor" : {
+			"author" : "Ravenhair",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2018-01-18T19:41:07Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#Seams:?value/value",
+				"keys" : [ [ 0, 1 ] ]
+			}
+		]
+	}
+}
