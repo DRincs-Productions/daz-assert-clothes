@@ -1,0 +1,22 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%202%20Female/Clothing/OOT%20Dev%20Styles/Extra%20Colors/Cloth%20Material%201/OOT%20Cloth%20Matzone%201%20Light%20Blue.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "outoftouch",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2015-03-06T09:24:38Z"
+	},
+	"scene" : {
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/trim:?diffuse/value",
+				"keys" : [ [ 0, [ 0.1, 0.3, 0.85 ] ] ]
+			}
+		]
+	}
+}
