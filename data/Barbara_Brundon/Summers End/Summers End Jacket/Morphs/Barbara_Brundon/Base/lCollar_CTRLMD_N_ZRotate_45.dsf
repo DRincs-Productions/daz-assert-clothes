@@ -1,0 +1,60 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Jacket/Morphs/Barbara_Brundon/Base/lCollar_CTRLMD_N_ZRotate_45.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "Barbara_Brundon",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-11-19T00:02:49Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "CTRLMD_N_ZRotate_45",
+			"name" : "CTRLMD_N_ZRotate_45",
+			"parent" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Jacket/Jacket_50921.dsf#lCollar",
+			"presentation" : {
+				"type" : "Modifier/Corrective",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.5019608, 0, 0 ], [ 0.5019608, 0, 0 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "CTRLMD_N_ZRotate_45",
+				"label" : "CTRLMD_N_ZRotate_45",
+				"visible" : false,
+				"locked" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Hidden/CTRLMDs",
+			"formulas" : [
+				{
+					"output" : "lCollar:#CTRLMD_N_ZRotate_45?value",
+					"operations" : [
+						{ "op" : "push", "url" : "lCollar:/data/Barbara_Brundon/Summers%20End/Summers%20End%20Jacket/Jacket_50921.dsf#lCollar?rotation/z" },
+						{ "op" : "push", "val" : 0.02222222 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "CTRLMD_N_ZRotate_45-1",
+				"url" : "#CTRLMD_N_ZRotate_45"
+			}
+		]
+	}
+}

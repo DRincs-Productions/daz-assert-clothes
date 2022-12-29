@@ -1,0 +1,1753 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/People/Genesis%208%20Female/Clothing/Summers%20End/Summers%20End%20Top.duf",
+		"type" : "wearable",
+		"contributor" : {
+			"author" : "alldaz",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2021-01-08T21:05:51Z"
+	},
+	"image_library" : [
+		{
+			"id" : "dabbse-top05-dif.jpg-1",
+			"name" : "dabbse-top05-dif.jpg",
+			"map_gamma" : 0,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-dif.jpg",
+					"label" : "dabbse-top05-dif.jpg"
+				}
+			]
+		},
+		{
+			"id" : "dabbse-top05-tr.jpg",
+			"name" : "dabbse-top05-tr.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-tr.jpg",
+					"label" : "dabbse-top05-tr.jpg"
+				}
+			]
+		},
+		{
+			"id" : "dabbse-top05-bmp.jpg",
+			"name" : "dabbse-top05-bmp.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-bmp.jpg",
+					"label" : "dabbse-top05-bmp.jpg"
+				}
+			]
+		},
+		{
+			"id" : "dabbse-top-disp.tif",
+			"name" : "dabbse-top-disp.tif",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top-disp.tif",
+					"label" : "dabbse-top-disp.tif"
+				}
+			]
+		},
+		{
+			"id" : "dabbse-top05-spec.jpg-1",
+			"name" : "dabbse-top05-spec.jpg",
+			"map_gamma" : 1,
+			"map" : [
+				{
+					"url" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-spec.jpg",
+					"label" : "dabbse-top05-spec.jpg"
+				}
+			]
+		}
+	],
+	"material_library" : [
+		{
+			"id" : "Top",
+			"diffuse" : {
+				"channel" : {
+					"id" : "diffuse",
+					"type" : "color",
+					"name" : "Diffuse Color",
+					"label" : "Diffuse Color",
+					"value" : [ 1, 1, 1 ],
+					"current_value" : [ 0.9960784, 0.9960784, 0.9960784 ],
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"default_image_gamma" : 0,
+					"mappable" : true
+				},
+				"group" : "/Diffuse"
+			},
+			"transparency" : {
+				"channel" : {
+					"id" : "transparency",
+					"type" : "float",
+					"name" : "Opacity Strength",
+					"label" : "Opacity Strength",
+					"value" : 1,
+					"current_value" : 1,
+					"min" : 0,
+					"max" : 1,
+					"clamped" : true,
+					"display_as_percent" : true,
+					"step_size" : 0.01,
+					"default_image_gamma" : 1,
+					"mappable" : true
+				},
+				"group" : "/Opacity/Basic"
+			},
+			"extra" : [
+				{
+					"type" : "studio/material/daz_shader",
+					"definition" : "support/DAZ/Uber/shaderDefinitions/surface/omUberSurfaceDef.dse"
+				},
+				{
+					"type" : "studio_material_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Tags",
+								"type" : "string",
+								"label" : "Tags",
+								"value" : "",
+								"current_value" : "<...Multiple...>"
+							},
+							"group" : "/General"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth On",
+								"type" : "bool",
+								"label" : "Smooth",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Smooth Angle",
+								"type" : "float",
+								"label" : "Angle",
+								"value" : 89.9,
+								"current_value" : 89.9,
+								"min" : 0,
+								"max" : 180,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Smoothing"
+						},
+						{
+							"channel" : {
+								"id" : "Line Preview Color",
+								"type" : "color",
+								"label" : "Line Preview Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true
+							},
+							"group" : "/Lines"
+						},
+						{
+							"channel" : {
+								"id" : "Line Start Width",
+								"type" : "float",
+								"label" : "Line Start Width (mm)",
+								"value" : 0.1,
+								"current_value" : 0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Line End Width",
+								"type" : "float",
+								"label" : "Line End Width (mm)",
+								"value" : 0.1,
+								"current_value" : 0.1,
+								"min" : -10000,
+								"max" : 10000,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Line UV Width",
+								"type" : "float",
+								"label" : "Line UV Width",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Lines/Generation"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"current_value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Propagate Priority",
+								"type" : "bool",
+								"label" : "Propagate Priority",
+								"visible" : false,
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Render Priority"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Active",
+								"type" : "bool",
+								"label" : "Bump Active",
+								"value" : false,
+								"current_value" : true
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Strength",
+								"type" : "float",
+								"label" : "Bump Strength",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 50,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Minimum",
+								"type" : "float",
+								"label" : "Bump Minimum",
+								"value" : -0.1,
+								"current_value" : -0.05,
+								"min" : 0,
+								"max" : 0,
+								"step_size" : 0.01
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Bump Maximum",
+								"type" : "float",
+								"label" : "Bump Maximum",
+								"value" : 0.1,
+								"current_value" : 0.05,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Bump"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Active",
+								"type" : "bool",
+								"label" : "Displacement Active",
+								"value" : false,
+								"current_value" : true
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Strength",
+								"type" : "float",
+								"label" : "Displacement Strength",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Minimum",
+								"type" : "float",
+								"label" : "Displacement Minimum",
+								"value" : -0.1,
+								"current_value" : -0.25,
+								"min" : 0,
+								"max" : 0,
+								"step_size" : 0.01
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Displacement Maximum",
+								"type" : "float",
+								"label" : "Displacement Maximum",
+								"value" : 0.1,
+								"current_value" : 0.25,
+								"min" : 0,
+								"max" : 1,
+								"step_size" : 0.01
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Trace Displacements",
+								"type" : "bool",
+								"label" : "Trace Displacements",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Displacement"
+						},
+						{
+							"channel" : {
+								"id" : "Normal Map",
+								"type" : "image",
+								"label" : "Normal Map",
+								"default_image_gamma" : 1
+							},
+							"group" : "/Normal Mapping"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Active",
+								"type" : "bool",
+								"label" : "Diffuse Active",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Strength",
+								"type" : "float",
+								"label" : "Diffuse Strength",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Diffuse Roughness",
+								"type" : "float",
+								"label" : "Diffuse Roughness",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Diffuse"
+						},
+						{
+							"channel" : {
+								"id" : "Opacity Active",
+								"type" : "bool",
+								"label" : "Opacity Active",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Opacity/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Opacity Color",
+								"type" : "color",
+								"label" : "Opacity Color",
+								"value" : [ 1, 1, 1 ],
+								"current_value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Opacity/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Map Tiling U",
+								"type" : "float",
+								"label" : "Map Tiling U",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0.1,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/UV Maps/Tiling"
+						},
+						{
+							"channel" : {
+								"id" : "Map Tiling V",
+								"type" : "float",
+								"label" : "Map Tiling V",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0.1,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/UV Maps/Tiling"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Active",
+								"type" : "bool",
+								"label" : "Specular Active",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Color",
+								"type" : "color",
+								"label" : "Specular Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 0.5686275, 0.5686275, 0.5686275 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Strength",
+								"type" : "float",
+								"label" : "Specular Strength",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Glossiness",
+								"type" : "float",
+								"label" : "Glossiness",
+								"value" : 0.1,
+								"current_value" : 0.78,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular Sharpness",
+								"type" : "float",
+								"label" : "Specular Sharpness",
+								"value" : 0,
+								"current_value" : 0.25,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Primary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic Active",
+								"type" : "bool",
+								"label" : "Anisotropic Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Specular/Primary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic Direction",
+								"type" : "enum",
+								"label" : "Anisotropic Direction",
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "U", "V" ]
+							},
+							"group" : "/Specular/Primary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Active",
+								"type" : "bool",
+								"label" : "Specular2 Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Color",
+								"type" : "color",
+								"label" : "Specular2 Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 0.8901961, 0.8901961, 0.8901961 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Strength",
+								"type" : "float",
+								"label" : "Specular2 Strength",
+								"value" : 1,
+								"current_value" : 0.45,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Roughness",
+								"type" : "float",
+								"label" : "Specular2 Roughness",
+								"value" : 0.1,
+								"current_value" : 0.15,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Specular2 Sharpness",
+								"type" : "float",
+								"label" : "Specular2 Sharpness",
+								"value" : 0,
+								"current_value" : 0.25,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Specular/Secondary/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic2 Active",
+								"type" : "bool",
+								"label" : "Anisotropic2 Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Specular/Secondary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Anisotropic2 Direction",
+								"type" : "enum",
+								"label" : "Anisotropic2 Direction",
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "U", "V" ]
+							},
+							"group" : "/Specular/Secondary/Anisotropic"
+						},
+						{
+							"channel" : {
+								"id" : "Multiply Specular Through Opacity",
+								"type" : "bool",
+								"label" : "Multiply Specular Through Opacity",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Specular/All"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Active",
+								"type" : "bool",
+								"label" : "Ambient Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Color",
+								"type" : "color",
+								"label" : "Ambient Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 0, 0, 0 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Ambient Strength",
+								"type" : "float",
+								"label" : "Ambient Strength",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Ambient"
+						},
+						{
+							"channel" : {
+								"id" : "Refraction Active",
+								"type" : "bool",
+								"label" : "Refraction Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Opacity/Refraction"
+						},
+						{
+							"channel" : {
+								"id" : "Index of Refraction",
+								"type" : "float",
+								"label" : "Index of Refraction",
+								"value" : 1.3,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Opacity/Refraction"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Active",
+								"type" : "bool",
+								"label" : "Reflection Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Mode",
+								"type" : "enum",
+								"label" : "Reflection Mode",
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "Environment Map", "Raytrace" ]
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Environment Map (Map in Lat/Long format)",
+								"type" : "color",
+								"label" : "Reflection Environment Map (Map in Lat/Long format)",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true,
+								"invalid_without_map" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Color",
+								"type" : "color",
+								"label" : "Reflection Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 0.5960784, 0.572549, 0.5764706 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Strength",
+								"type" : "float",
+								"label" : "Reflection Strength",
+								"value" : 1,
+								"current_value" : 0.25,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Blur",
+								"type" : "float",
+								"label" : "Reflection Blur",
+								"value" : 0,
+								"current_value" : 0.05,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Reflection Blur Samples",
+								"type" : "int",
+								"label" : "Reflection Blur Samples",
+								"value" : 4,
+								"current_value" : 1,
+								"min" : 1,
+								"max" : 64,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Multiply Reflection Through Opacity",
+								"type" : "bool",
+								"label" : "Multiply Reflection Through Opacity",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Reflection/Basic"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Active",
+								"type" : "bool",
+								"label" : "Fresnel Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Strength",
+								"type" : "float",
+								"label" : "Fresnel Strength",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Falloff",
+								"type" : "float",
+								"label" : "Fresnel Falloff",
+								"value" : 0.4,
+								"current_value" : 0.4,
+								"min" : 0.05,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Fresnel Sharpness",
+								"type" : "float",
+								"label" : "Fresnel Sharpness",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Reflection/Fresnel"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Active",
+								"type" : "bool",
+								"label" : "Velvet Active",
+								"value" : false,
+								"current_value" : true
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Color",
+								"type" : "color",
+								"label" : "Velvet Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 0.7882353, 0.7647059, 0.6823529 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Strength",
+								"type" : "float",
+								"label" : "Velvet Strength",
+								"value" : 1,
+								"current_value" : 0.2,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Velvet Falloff",
+								"type" : "float",
+								"label" : "Velvet Falloff",
+								"value" : 20,
+								"current_value" : 10,
+								"min" : 1,
+								"max" : 100,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Velvet"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Active",
+								"type" : "bool",
+								"label" : "Subsurface Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Color",
+								"type" : "color",
+								"label" : "Subsurface Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Strength",
+								"type" : "float",
+								"label" : "Subsurface Strength",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Refraction",
+								"type" : "float",
+								"label" : "Subsurface Refraction",
+								"value" : 1.5,
+								"current_value" : 1.5,
+								"min" : 0.01,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Scale",
+								"type" : "float",
+								"label" : "Subsurface Scale",
+								"value" : 4,
+								"current_value" : 4,
+								"min" : 0,
+								"max" : 10,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Group",
+								"type" : "int",
+								"label" : "Subsurface Group",
+								"value" : 0,
+								"current_value" : 0,
+								"min" : 0,
+								"max" : 64,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Subsurface Shading Rate",
+								"type" : "float",
+								"label" : "Subsurface Shading Rate",
+								"value" : 32,
+								"current_value" : 32,
+								"min" : 0,
+								"max" : 128,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Subsurface Scattering"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Active",
+								"type" : "bool",
+								"label" : "Translucency Active",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Color",
+								"type" : "color",
+								"label" : "Translucency Color",
+								"value" : [ 0, 0, 0 ],
+								"current_value" : [ 1, 1, 1 ],
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"default_image_gamma" : 0,
+								"mappable" : true
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Translucency Strength",
+								"type" : "float",
+								"label" : "Translucency Strength",
+								"value" : 1,
+								"current_value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"display_as_percent" : true,
+								"step_size" : 0.01,
+								"default_image_gamma" : 1,
+								"mappable" : true
+							},
+							"group" : "/Translucency"
+						},
+						{
+							"channel" : {
+								"id" : "Fantom",
+								"type" : "bool",
+								"label" : "Fantom",
+								"value" : false,
+								"current_value" : false
+							},
+							"group" : "/Visibility"
+						},
+						{
+							"channel" : {
+								"id" : "Raytrace",
+								"type" : "bool",
+								"label" : "Raytrace",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Visibility"
+						},
+						{
+							"channel" : {
+								"id" : "Accept Shadows",
+								"type" : "bool",
+								"label" : "Accept Shadows",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shadows"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion",
+								"type" : "bool",
+								"label" : "Occlusion",
+								"value" : true,
+								"current_value" : true
+							},
+							"group" : "/Shadows"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion Shading Rate Mode",
+								"type" : "enum",
+								"label" : "Occlusion Shading Rate Mode",
+								"value" : 0,
+								"current_value" : 0,
+								"enum_values" : [ "Global", "Override" ]
+							},
+							"group" : "/Quality"
+						},
+						{
+							"channel" : {
+								"id" : "Occlusion Shading Rate",
+								"type" : "float",
+								"label" : "Occlusion Shading Rate",
+								"value" : 10,
+								"current_value" : 10,
+								"min" : 0.1,
+								"max" : 128,
+								"clamped" : true,
+								"step_size" : 0.01
+							},
+							"group" : "/Quality"
+						}
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"nodes" : [
+			{
+				"id" : "Top_4565",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#Top_4565",
+				"name" : "Top_4565",
+				"label" : "Summers End Top",
+				"parent" : "name://@selection:",
+				"geometries" : [
+					{
+						"id" : "geometry",
+						"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#geometry",
+						"name" : "Top",
+						"label" : "shape",
+						"type" : "subdivision_surface",
+						"current_subdivision_level" : 1,
+						"edge_interpolation_mode" : "edges_only",
+						"subd_normal_smoothing_mode" : "smooth_all_normals",
+						"extra" : [
+							{
+								"type" : "studio_geometry_channels",
+								"channels" : [
+									{
+										"channel" : {
+											"id" : "SubDRenderLevel",
+											"type" : "int",
+											"current_value" : 0
+										}
+									}
+								]
+							}
+						]
+					}
+				],
+				"conform_target" : "name://@selection:",
+				"preview" : {
+					"type" : "figure",
+					"oriented_box" : {
+						"min" : [ -45.061, 88.002, -12.538 ],
+						"max" : [ 45.062, 162.612, 13.652 ]
+					},
+					"center_point" : [ 0, 0, 0 ],
+					"end_point" : [ 0, 103.876, 0 ],
+					"rotation_order" : "YXZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "hip",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#hip",
+				"name" : "hip",
+				"label" : "Hip",
+				"parent" : "#Top_4565",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 105.1781, 1.824816 ],
+					"end_point" : [ 0, 88.82034, 0.02407765 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "pelvis",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#pelvis",
+				"name" : "pelvis",
+				"label" : "Pelvis",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 107.0423, 1.873485 ],
+					"end_point" : [ 0, 88.0048, 1.555934 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "abdomenLower",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#abdomenLower",
+				"name" : "abdomenLower",
+				"label" : "Abdomen Lower",
+				"parent" : "#hip",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 106.9446, 0.3423212 ],
+					"end_point" : [ 0, 115.0478, 0.4073269 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "abdomenUpper",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#abdomenUpper",
+				"name" : "abdomenUpper",
+				"label" : "Abdomen Upper",
+				"parent" : "#abdomenLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -13.292, 4.856, -10.818 ],
+						"max" : [ 13.298, 13.705, 11.477 ]
+					},
+					"center_point" : [ 0, 115.0947, 1.53567 ],
+					"end_point" : [ 0, 122.5955, 0.839857 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "chestLower",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#chestLower",
+				"name" : "chestLower",
+				"label" : "Chest Lower",
+				"parent" : "#abdomenUpper",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -14.827, 0.302, -13.428 ],
+						"max" : [ 14.828, 14.624, 12.153 ]
+					},
+					"center_point" : [ 0, 123, 1.138297 ],
+					"end_point" : [ 0, 143.7313, 1.202407 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "chestUpper",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#chestUpper",
+				"name" : "chestUpper",
+				"label" : "Chest Upper",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -14.649, -0.076, -10.025 ],
+						"max" : [ 14.654, 15.441, 11.525 ]
+					},
+					"center_point" : [ 0, 136.0765, -2.479732 ],
+					"end_point" : [ 0, 149.5166, -2.438965 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lCollar",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#lCollar",
+				"name" : "lCollar",
+				"label" : "Left Collar",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ 5.607, -4.911, -7.783 ],
+						"max" : [ 8.732, 3.278, 7.404 ]
+					},
+					"center_point" : [ 3.465208, 146.9626, -4.110317 ],
+					"end_point" : [ 13.45499, 147.5363, -4.854364 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lShldrBend",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#lShldrBend",
+				"name" : "lShldrBend",
+				"label" : "Left Shoulder Bend",
+				"parent" : "#lCollar",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 15.40978, 145.627, -4.916882 ],
+					"end_point" : [ 23.14322, 136.9117, -4.665148 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lShldrTwist",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#lShldrTwist",
+				"name" : "lShldrTwist",
+				"label" : "Left Shoulder Twist",
+				"parent" : "#lShldrBend",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 23.16304, 136.9295, -4.667035 ],
+					"end_point" : [ 32.71958, 126.0328, -4.42785 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lForearmBend",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#lForearmBend",
+				"name" : "lForearmBend",
+				"label" : "Left Forearm Bend",
+				"parent" : "#lShldrTwist",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 32.85266, 126.2099, -4.923763 ],
+					"end_point" : [ 41.25117, 118.0638, -1.4356 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rCollar",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#rCollar",
+				"name" : "rCollar",
+				"label" : "Right Collar",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -8.731, -4.911, -7.781 ],
+						"max" : [ -5.605, 3.278, 7.404 ]
+					},
+					"center_point" : [ -3.465208, 146.9626, -4.110317 ],
+					"end_point" : [ -13.45499, 147.5363, -4.854364 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rShldrBend",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#rShldrBend",
+				"name" : "rShldrBend",
+				"label" : "Right Shoulder Bend",
+				"parent" : "#rCollar",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -15.40978, 145.627, -4.916882 ],
+					"end_point" : [ -23.14322, 136.9117, -4.665148 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rShldrTwist",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#rShldrTwist",
+				"name" : "rShldrTwist",
+				"label" : "Right Shoulder Twist",
+				"parent" : "#rShldrBend",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -23.16304, 136.9295, -4.667035 ],
+					"end_point" : [ -32.71958, 126.0328, -4.42785 ],
+					"rotation_order" : "XYZ"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rForearmBend",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#rForearmBend",
+				"name" : "rForearmBend",
+				"label" : "Right Forearm Bend",
+				"parent" : "#rShldrTwist",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ -32.85266, 126.2099, -4.923763 ],
+					"end_point" : [ -41.25117, 118.0638, -1.4356 ],
+					"rotation_order" : "XZY"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neckLower",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#neckLower",
+				"name" : "neckLower",
+				"label" : "Neck Lower",
+				"parent" : "#chestUpper",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 154.33, -3.98 ],
+					"end_point" : [ 0, 157.69, -2.93 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "neckUpper",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#neckUpper",
+				"name" : "neckUpper",
+				"label" : "Neck Upper",
+				"parent" : "#neckLower",
+				"preview" : {
+					"type" : "bone",
+					"center_point" : [ 0, 157.61, -2 ],
+					"end_point" : [ 0, 162.59, -1.53 ],
+					"rotation_order" : "YZX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "lPectoral",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#lPectoral",
+				"name" : "lPectoral",
+				"label" : "Left Pectoral",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -6.266, -5.866, 16.962 ],
+						"max" : [ 5.744, 5.529, 21.808 ]
+					},
+					"center_point" : [ 3.121763, 131.7603, -7.454938 ],
+					"end_point" : [ 10.76093, 135.1547, 12.01135 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			},
+			{
+				"id" : "rPectoral",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#rPectoral",
+				"name" : "rPectoral",
+				"label" : "Right Pectoral",
+				"parent" : "#chestLower",
+				"preview" : {
+					"type" : "bone",
+					"oriented_box" : {
+						"min" : [ -5.743, -5.864, 16.96 ],
+						"max" : [ 6.275, 5.542, 21.81 ]
+					},
+					"center_point" : [ -3.121763, 131.7603, -7.454938 ],
+					"end_point" : [ -10.76093, 135.1547, 12.01135 ],
+					"rotation_order" : "ZYX"
+				},
+				"extra" : [
+					{
+						"type" : "studio_node_channels",
+						"version" : 4
+					}
+				]
+			}
+		],
+		"modifiers" : [
+			{
+				"id" : "Widen Sides",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Morphs/Barbara_Brundon/Base/Widen%20Sides.dsf#Widen%20Sides",
+				"parent" : "#geometry",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"current_value" : 0
+				},
+				"region" : "Actor",
+				"group" : "/ Shaping"
+			},
+			{
+				"id" : "Widen Shoulders",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Morphs/Barbara_Brundon/Base/Widen%20Shoulders.dsf#Widen%20Shoulders",
+				"parent" : "#geometry",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"current_value" : 0
+				},
+				"region" : "Actor",
+				"group" : "/ Shaping"
+			},
+			{
+				"id" : "Widen Right Shoulder",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Morphs/Barbara_Brundon/Base/Widen%20Right%20Shoulder.dsf#Widen%20Right%20Shoulder",
+				"parent" : "#geometry",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"current_value" : 0
+				},
+				"region" : "Actor",
+				"group" : "/ Shaping"
+			},
+			{
+				"id" : "Widen Left Shoulder",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Morphs/Barbara_Brundon/Base/Widen%20Left%20Shoulder.dsf#Widen%20Left%20Shoulder",
+				"parent" : "#geometry",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"current_value" : 0
+				},
+				"region" : "Actor",
+				"group" : "/ Shaping"
+			},
+			{
+				"id" : "Widen Chest",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Morphs/Barbara_Brundon/Base/Widen%20Chest.dsf#Widen%20Chest",
+				"parent" : "#geometry",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"current_value" : 0
+				},
+				"region" : "Actor",
+				"group" : "/ Shaping"
+			},
+			{
+				"id" : "Widen Back",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Morphs/Barbara_Brundon/Base/Widen%20Back.dsf#Widen%20Back",
+				"parent" : "#geometry",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"current_value" : 0
+				},
+				"region" : "Actor",
+				"group" : "/ Shaping"
+			},
+			{
+				"id" : "ExpandAll",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Morphs/Barbara_Brundon/Base/ExpandAll.dsf#ExpandAll",
+				"parent" : "#geometry",
+				"channel" : {
+					"id" : "value",
+					"type" : "float",
+					"name" : "Value",
+					"current_value" : 0
+				},
+				"region" : "Actor",
+				"group" : "/ Shaping"
+			},
+			{
+				"id" : "SkinBinding",
+				"url" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/Top_4565.dsf#SkinBinding",
+				"parent" : "#geometry",
+				"extra" : [
+					{
+						"type" : "skin_settings",
+						"auto_normalize_general" : true,
+						"auto_normalize_local" : true,
+						"auto_normalize_scale" : true,
+						"binding_mode" : "General",
+						"general_map_mode" : "DualQuat",
+						"scale_mode" : "BindingMaps"
+					}
+				]
+			}
+		],
+		"materials" : [
+			{
+				"id" : "Top-1",
+				"url" : "#Top",
+				"geometry" : "#geometry",
+				"groups" : [ "Top" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "color",
+						"name" : "Diffuse Color",
+						"current_value" : [ 0.9960784, 0.9960784, 0.9960784 ],
+						"image_file" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-dif.jpg"
+					}
+				},
+				"transparency" : {
+					"channel" : {
+						"id" : "transparency",
+						"type" : "float",
+						"name" : "Opacity Strength",
+						"current_value" : 1,
+						"image_file" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-tr.jpg"
+					}
+				},
+				"uv_set" : "/data/Barbara_Brundon/Summers%20End/Summers%20End%20Top/UV%20Sets/Barbara_Brundon/Base/default.dsf#default",
+				"extra" : [
+					{
+						"type" : "studio/material/daz_shader"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-bmp.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top-disp.tif"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "image",
+									"image_file" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-nml.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Color",
+									"type" : "color",
+									"current_value" : [ 0.5686275, 0.5686275, 0.5686275 ],
+									"image_file" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-dif.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Specular Strength",
+									"type" : "float",
+									"current_value" : 1,
+									"image_file" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-spec.jpg"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Velvet Strength",
+									"type" : "float",
+									"current_value" : 0.2,
+									"image_file" : "/Runtime/Textures/Arien/SummersEnd/dabbse-top05-spec.jpg"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
